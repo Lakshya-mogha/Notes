@@ -150,7 +150,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 396.5
+    "width": 801.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -202,7 +202,7 @@
       }
     ]
   },
-  "active": "7ef5bd9cd7005342",
+  "active": "cf71074d9c7890fb",
   "lastOpenFiles": [
     "Daily  summary/2024-09-16.md",
     "Daily  summary/2024-09-18.md",
