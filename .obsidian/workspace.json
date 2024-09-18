@@ -1,0 +1,246 @@
+{
+  "main": {
+    "id": "96a54eb3a9c2a353",
+    "type": "split",
+    "children": [
+      {
+        "id": "b5b9ae079f2b659e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5048c12f4d92bc7b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Daily  summary/2024-09-18.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "fdec8058832d5c59",
+    "type": "split",
+    "children": [
+      {
+        "id": "2973b4393215577d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7ef5bd9cd7005342",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "1dfe907b325cedeb",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "a724cc51d2a8c383",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 203.5
+  },
+  "right": {
+    "id": "024beebead04524c",
+    "type": "split",
+    "children": [
+      {
+        "id": "37caaecea2d27b27",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "20b3e181a6ab4999",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Daily  summary/2024-09-18.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "6e9cd9dafcbb4efd",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Daily  summary/2024-09-18.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "9803aac9d368cdb0",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "f39cb3d5de81633c",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Daily  summary/2024-09-18.md"
+              }
+            }
+          },
+          {
+            "id": "c4f6609381d66341",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          },
+          {
+            "id": "cf71074d9c7890fb",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 5
+      }
+    ],
+    "direction": "horizontal",
+    "width": 396.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "soundscapes:Soundscapes: My Music": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "obsidian-git:Open Git source control": false
+    }
+  },
+  "floating": {
+    "id": "91d7372de54fe40b",
+    "type": "floating",
+    "children": [
+      {
+        "id": "c577a1be752a487c",
+        "type": "window",
+        "children": [
+          {
+            "id": "97e931b60fdb4cd8",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "c605dfd5758551c6",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Daily  summary/2024-09-17.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 1620,
+        "y": 39,
+        "width": 300,
+        "height": 329,
+        "maximize": false,
+        "zoom": 0
+      }
+    ]
+  },
+  "active": "7ef5bd9cd7005342",
+  "lastOpenFiles": [
+    "Daily  summary/2024-09-16.md",
+    "Daily  summary/2024-09-18.md",
+    "Daily  summary/2024-09-17.md",
+    "Daily  summary/2024-09-15.md",
+    "Daily  summary/2024-09-14.md",
+    "Daily  summary/2024-09-13.md",
+    "Daily  summary/2024-09-12.md",
+    "time table.png",
+    "Daily  summary/Untitled.md",
+    "dsa/set matrix zero.md",
+    "Untitled",
+    "Untitled.md",
+    "rust/2- Ownership.md",
+    "rust/Memory and Allocation.md",
+    "rust/1-  Syntax.md",
+    "rust/The stack and the heap.md",
+    "rust/images/copy of s1 to s2.png",
+    "rust/images",
+    "rust/images/Representation of string holdin a value.png",
+    "Daily notes/2024-09-06.md",
+    "Daily  summary",
+    "Memory and Allocation.md",
+    "rust",
+    "system design/System Design.pdf",
+    "system design/class 02- real time data System Design.pdf",
+    "system design/Class 03 - Monolith Microservices gRPC webhook.pdf",
+    "Untitled.canvas",
+    "dsa/Recursion.md",
+    "dsa/ss/recursion.png",
+    "dsa/space and time complexity.md",
+    "dsa/ss/Screenshot from 2024-07-24 17-47-38.png",
+    "dsa/ss/Screenshot from 2024-07-27 20-22-16.png",
+    "dsa/ss",
+    "dsa",
+    "Screenshot from 2024-08-06 10-15-07.png",
+    "Untitled/Untitled",
+    "Pasted image 20240807103638.png",
+    "System design.md"
+  ]
+}
