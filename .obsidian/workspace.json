@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "b5b9ae079f2b659e",
+        "id": "2d779198ce3c11da",
         "type": "tabs",
         "children": [
           {
-            "id": "5048c12f4d92bc7b",
+            "id": "c55dfcf9724cd30f",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Daily  summary/2024-09-18.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Daily  summary/2024-09-18.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Daily  summary/2024-09-18.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Daily  summary/2024-09-18.md"
-              }
+              "state": {}
             }
           },
           {
@@ -150,7 +142,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 801.5
+    "width": 383.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -165,57 +157,25 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "floating": {
-    "id": "91d7372de54fe40b",
-    "type": "floating",
-    "children": [
-      {
-        "id": "c577a1be752a487c",
-        "type": "window",
-        "children": [
-          {
-            "id": "97e931b60fdb4cd8",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "c605dfd5758551c6",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Daily  summary/2024-09-17.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": 1620,
-        "y": 39,
-        "width": 300,
-        "height": 329,
-        "maximize": false,
-        "zoom": 0
-      }
-    ]
-  },
   "active": "cf71074d9c7890fb",
   "lastOpenFiles": [
-    "Daily  summary/2024-09-16.md",
+    "project ideas/viral meme hub.md",
+    "project ideas/stock exchange with virtual money.md",
+    "Untitled",
+    "project ideas",
+    "Daily  summary/2024-09-19.md",
+    "time table.png",
     "Daily  summary/2024-09-18.md",
+    "data science/python.md",
+    "data science",
     "Daily  summary/2024-09-17.md",
+    "Daily  summary/2024-09-16.md",
     "Daily  summary/2024-09-15.md",
     "Daily  summary/2024-09-14.md",
     "Daily  summary/2024-09-13.md",
     "Daily  summary/2024-09-12.md",
-    "time table.png",
     "Daily  summary/Untitled.md",
     "dsa/set matrix zero.md",
-    "Untitled",
-    "Untitled.md",
     "rust/2- Ownership.md",
     "rust/Memory and Allocation.md",
     "rust/1-  Syntax.md",
@@ -237,9 +197,7 @@
     "dsa/ss/Screenshot from 2024-07-24 17-47-38.png",
     "dsa/ss/Screenshot from 2024-07-27 20-22-16.png",
     "dsa/ss",
-    "dsa",
     "Screenshot from 2024-08-06 10-15-07.png",
-    "Untitled/Untitled",
     "Pasted image 20240807103638.png",
     "System design.md"
   ]
