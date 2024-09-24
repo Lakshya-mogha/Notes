@@ -11,8 +11,12 @@
             "id": "c55dfcf9724cd30f",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "project ideas/stock exchange with virtual money.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "project ideas/stock exchange with virtual money.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "project ideas/stock exchange with virtual money.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "project ideas/stock exchange with virtual money.md"
+              }
             }
           },
           {
@@ -159,8 +167,11 @@
   },
   "active": "cf71074d9c7890fb",
   "lastOpenFiles": [
-    "project ideas/viral meme hub.md",
     "project ideas/stock exchange with virtual money.md",
+    "Daily  summary/2024-09-25.md",
+    "Excalidraw/stock exchange platoform.md",
+    "Excalidraw",
+    "project ideas/viral meme hub.md",
     "Untitled",
     "project ideas",
     "Daily  summary/2024-09-19.md",
@@ -196,7 +207,6 @@
     "dsa/space and time complexity.md",
     "dsa/ss/Screenshot from 2024-07-24 17-47-38.png",
     "dsa/ss/Screenshot from 2024-07-27 20-22-16.png",
-    "dsa/ss",
     "Screenshot from 2024-08-06 10-15-07.png",
     "Pasted image 20240807103638.png",
     "System design.md"

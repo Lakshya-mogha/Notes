@@ -4,10 +4,14 @@ Each person will get a certain amount of money for the day lets say (1 L) till t
 
 ## Data 
 
-https://www.alphavantage.co/documentation/
+1. https://www.alphavantage.co/documentation/
 
-it provides real time data with 5 req per min 
+	it provides real time data with 5 req per min 
+	
+	$5 req/60 min = 12$ sec per req 
 
-$5 req/60 min = 12$ sec per req 
+*1 minute resolution chart is considered most optimal*
 
+2. upstox also provide realtime api
 
+- https://www.tradingview.com/lightweight-charts/ can be used for chart
