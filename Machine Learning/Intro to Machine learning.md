@@ -1,0 +1,118 @@
+### What is machine learning
+
+Machine learning uses statistical techniques to give the computer the ability to learn with data, without being explicitly programmed.
+
+![[Pasted image 20241123044901.png]]
+
+Let us take a data set and see how machine learning works.
+
+| Iq  | cgpa | Placement Y/ N |
+| --- | ---- | -------------- |
+| 87  | 7.1  | Y              |
+| 111 | 8.9  | Y              |
+| 75  | 6.3  | N              |
+
+*Data above shows a students IQ, their CGPA, and if they have placement or not.
+
+When we train a machine learning model with the above dataset, it takes IQ and CGPA as the inputs and the placements as the output because the placement of is directly dependent on the IQ and CGPA.
+
+So the model trains on the given data set and then predicts whether a person with X amount of CGPA and Y amount of IQ is going to get placement or not 
+
+> [!NOTE] > Machine learning model gives a prediction based on the data it is trained on and does not have a 100% accuracy
+
+## Types of ML (Based on data)
+
+These are usually dependent on what kind of data we are working with. There are 4 types of ML:
+
+- Supervised
+- Unsupervised
+- Semi-supervised
+- Reinforced
+
+![[Pasted image 20241123060301.png]]
+
+### Supervised learning 
+
+The example given above about whether a person will get placed or not based on their IQ and their CGPA is what supervised learning is. When the model is given both input and output to train on and predict output based on further given inputs.
+
+Most of the machine learning work is done in supervised way.
+
+There are generally two types of data numerical that can be expressed in a numeric form and categorical which cannot be expressed in numeric form.
+
+![[Pasted image 20241123060213.png]]
+
+#### Regression
+
+ When a the predicted output is a numeric value it is known as regression. For example a image is given to the model and it returns the output as 7 or the example given above about the placements the model gives a prediction as 0 or 1 which is represented as yes or no.
+
+#### Classification 
+
+when a model returns non numeric value it is known as classification for example an image is given to the model and it replies as the image is of dog or cat.
+
+### Unsupervised learning 
+
+Unsupervised learning is done when there is no output available for the model to train on. So, what do we do in unsupervised learning, we analyse data and try to see patterns init to train on.
+
+#### Clustering
+
+A cluster is formed with the help to given data which divides different kind of people in their own separate groups.
+
+![[Pasted image 20241123123226.png]]
+
+#### Dimensional reduction 
+
+It removes the excess data that is of no use for the prediction or improving the accuracy of the model.
+
+#### Anomaly detection
+
+Detects a data point in the dataset which shows too much of variation or doesn't fall within the dataset provided.
+
+#### Association rule learning
+
+When analysis of data defines set of rules that can be helpful in real life. 
+
+For example, in a shopping mall a model can be used to detect what products are mostly brought together, it can help in detecting what aisle should be put together from the frequency of them bought together.
+
+### Semi-supervised 
+
+when a data set is unsupervised and analysed into cluster of data to then be labelled as one output for then the model to train on. 
+
+Example, in google photos whenever you label one person as someone it creates a cluster of photos in which that person is present.
+
+### Reinforcement 
+
+When no dataset is provided and the model starts from scratch creating its own synthetic data to train upon. 
+
+one of the best example of reinforcement learning are human beings, we start with no knowledge and as we grow we gather knowledge and get more good at things we have already experienced. Training a dog is also an example of reinforcement learning.
+
+## Types of ML (based on production behaviour)
+### Batch / Offline ML
+
+The model is trained on offline / Development environment and then the trained model is deployed onto the server.
+
+##### Pros 
+- Training data on a server is expensive in terms of both computation and money.
+##### Cons
+- Is not able to keep up with repeatedly changing data. To fight it model is trained and deployed recursively in x amount of interval, usually dependent on the frequency at which a data is changing.
+- Hardware limitation. Basically a user is not always connected to the internet to get the updated newly trained data. Example, In an army mission where there is little to no connectivity or interplanetary missions.
+- Availability. Model not up to date with a data might miss some really important news, therefore unreliable. 
+### Online ML
+
+Data is provided in small chunks to a model on the server and it trains on the go this way model predicts and learns simultaneously. Example, when a company says that the more you use it the better it will become like image generators, chat bots.
+
+##### Pros
+- Can be used with highly volatile data such as stock market.
+- Cost effective on larger scale of data also known as big data.
+- Faster 
+##### Cons 
+- Tricky to use 
+- Risky 
+## Type of ML (Based on learning)
+
+### Instance based learning 
+
+In instance based learning model does not learn anything but it sees the similarity between the new value and the given dataset and then gives the prediction.
+
+### Model based learning 
+
+Model based learning focuses on getting the mathematical relationship between input and the output of the given data and gives new prediction based on that relationship.
