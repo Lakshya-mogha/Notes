@@ -1,6 +1,7 @@
 {
-  "scrolledView": false,
+  "scrolledView": true,
   "bookInitLocations": {
-    "books/The Rust Programming Language (Steve Klabnik Carol Nichols) (Z-Library).epub": "epubcfi(/6/10!/4/2[sbo-rt-content]/2/2[fm-503106f03-0001]/1:0)"
+    "books/The Rust Programming Language (Steve Klabnik Carol Nichols) (Z-Library).epub": "epubcfi(/6/10!/4/2[sbo-rt-content]/2/2[fm-503106f03-0001]/1:0)",
+    "Bad Blood Secrets and Lies in a Silicon Valley Startup (John Carreyrou) (Z-Library).epub": "epubcfi(/6/16!/4/2[filepos40436]/2/1:0)"
   }
 }

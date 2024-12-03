@@ -5,24 +5,21 @@ Each person will get a certain amount of money for the day lets say (1 L) till t
 - ## Data 
   
   1. https://www.alphavantage.co/documentation/
-  
 
   it provides real time data with 5 req per min 
 
-  
-
   $5 req/60 min = 12$ sec per req 
 
-  
   *1 minute resolution chart is considered most optimal*
   
   2. upstox also provide realtime api
-- ### charts
+### charts
   1. https://www.chartjs.org/chartjs-chart-financial/  familiar with this.
   2. https://apexcharts.com/react-chart-demos/candlestick-charts/ liked this.
   3. https://www.tradingview.com/lightweight-charts/ can be used for chart
-  
 
   To draw on charts might have to code to draw on canvas i don't think there are many things available i might find a lib or something to draw on canvas.
 
   excalidraw : [[stock exchange platform]]
+
+  

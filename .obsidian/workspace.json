@@ -4,17 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "5ab4b8271d9590ef",
+        "id": "3df1a4c7d6587c02",
         "type": "tabs",
         "children": [
           {
-            "id": "9bf05cfba101d3d3",
+            "id": "cdfa40ca20806dba",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "pdf",
+              "state": {
+                "file": "Machine Learning/Hands-on Machine Learning with Scikit-Learn, Keras, and TensorFlow (Aurélien Géron) (Z-Library).pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "Hands-on Machine Learning with Scikit-Learn, Keras, and TensorFlow (Aurélien Géron) (Z-Library)"
             }
           }
         ]
@@ -30,18 +32,6 @@
         "id": "2973b4393215577d",
         "type": "tabs",
         "children": [
-          {
-            "id": "7ef5bd9cd7005342",
-            "type": "leaf",
-            "state": {
-              "type": "file-explorer",
-              "state": {
-                "sortOrder": "alphabetical"
-              },
-              "icon": "lucide-folder-closed",
-              "title": "Files"
-            }
-          },
           {
             "id": "1dfe907b325cedeb",
             "type": "leaf",
@@ -68,8 +58,21 @@
               "icon": "lucide-bookmark",
               "title": "Bookmarks"
             }
+          },
+          {
+            "id": "0a3dc2e67703d518",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -181,53 +184,54 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "9bf05cfba101d3d3",
+  "active": "cf71074d9c7890fb",
   "lastOpenFiles": [
+    "Machine Learning/images/Pasted image 20241203105312.png",
+    "pages/contents.md",
+    "Machine Learning/images/Pasted image 20241203100949.png",
+    "Machine Learning/Hands-on Machine Learning with Scikit-Learn, Keras, and TensorFlow (Aurélien Géron) (Z-Library).pdf",
+    "Machine Learning/4. Linear regression.md",
+    "Untitled 1.canvas",
+    "Untitled.canvas",
+    "Machine Learning/1. Intro to Machine learning.md",
+    "Machine Learning/images/Pasted image 20241202102747.png",
+    "Machine Learning/Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow Notes.md",
+    "Machine Learning/2. Machine learning Development life cycle (MLDLC, MLDC).md",
+    "Untitled",
+    "Artificial Intelligence A Modern Approach (Dr. Peter Norvig , Stuart Russell) (Z-Library).pdf",
+    "Machine Learning/Setting things up.md",
+    "Machine Learning/3. Tensors.md",
+    "Bad Blood Secrets and Lies in a Silicon Valley Startup (John Carreyrou) (Z-Library).epub",
+    "Artificial Intelligence A Modern Approach - 3rd edition (Stuart Russell, Peter Norvig) .pdf",
+    "ai",
+    "redirection",
+    "Bad Blood Secrets and Lies in a Silicon Valley Startup (John Carreyrou) (Z-Library).md",
+    "time table.png",
+    "Machine Learning/images/Pasted image 20241129093613.png",
+    "Machine Learning/images/Pasted image 20241129091953.png",
+    "Machine Learning/images/Pasted image 20241129091357.png",
+    "Machine Learning/images/Pasted image 20241129091215.png",
     "project ideas/stock exchange with virtual money.md",
-    "Machine Learning/Intro to Machine learning.md",
+    "project ideas/viral meme hub.md",
+    "name",
+    "age",
     "Machine Learning/images/Pasted image 20241123123226.png",
     "Machine Learning/images/Pasted image 20241123060301.png",
-    "Machine Learning/images/Pasted image 20241123060213.png",
-    "Screenshot_20241123_055610.png",
     "Excalidraw/Drawing 2024-11-23 05.05.19.excalidraw.md",
     "Excalidraw/Drawing 2024-11-23 05.06.18.excalidraw.md",
-    "Untitled.md",
     "Untitled 1.md",
     "Machine Learning/images",
-    "Machine Learning/images/Pasted image 20241123044901.png",
     "dsa/prime/2. Array.md",
-    "Machine Learning",
     "data science/python.md",
-    "dsa/prime",
     "dsa/prime/1. Time- space complexity.md",
     "dsa/space and time complexity.md",
     "dsa/set matrix zero.md",
     "dsa/Recursion.md",
     "C lang/syntax.md",
-    "time table.png",
-    "project ideas/viral meme hub.md",
     "Excalidraw/stock exchange platform.md",
     "Rust lang/2- Ownership.md",
-    "C lang",
     "Rust lang/1-  Syntax.md",
     "Rust lang/The stack and the heap.md",
-    "books/The Rust Programming Language (Steve Klabnik Carol Nichols) (Z-Library).epub",
-    "books/The C Programming Language (Brian W. Kernighan, Dennis M. Ritchie) (Z-Library).epub",
-    "The Rust Programming Language (Steve Klabnik Carol Nichols) (Z-Library).epub",
-    "The C Programming Language (Brian W. Kernighan, Dennis M. Ritchie) (Z-Library).epub",
-    "books",
-    "Rust lang/Memory and Allocation.md",
-    "Daily  summary/2024-09-25.md",
-    "Excalidraw",
-    "Daily  summary/2024-09-19.md",
-    "Daily  summary/2024-09-18.md",
-    "Daily  summary/2024-09-17.md",
-    "Daily  summary/2024-09-16.md",
-    "Daily  summary/2024-09-15.md",
-    "Rust lang/images/copy of s1 to s2.png",
-    "Rust lang/images/Representation of string holdin a value.png",
-    "Untitled.canvas",
-    "dsa/ss/recursion.png",
-    "dsa/ss/Screenshot from 2024-07-24 17-47-38.png"
+    "Rust lang/Memory and Allocation.md"
   ]
 }
