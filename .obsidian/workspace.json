@@ -1,22 +1,20 @@
 {
   "main": {
-    "id": "96a54eb3a9c2a353",
+    "id": "f2b401d6f0c2184d",
     "type": "split",
     "children": [
       {
-        "id": "3df1a4c7d6587c02",
+        "id": "e1a2005ace8d95aa",
         "type": "tabs",
         "children": [
           {
-            "id": "cdfa40ca20806dba",
+            "id": "8d313779b5055b99",
             "type": "leaf",
             "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Machine Learning/Hands-on Machine Learning with Scikit-Learn, Keras, and TensorFlow (Aurélien Géron) (Z-Library).pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "Hands-on Machine Learning with Scikit-Learn, Keras, and TensorFlow (Aurélien Géron) (Z-Library)"
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           }
         ]
@@ -25,15 +23,27 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "fdec8058832d5c59",
+    "id": "0844ed31d7f2d73a",
     "type": "split",
     "children": [
       {
-        "id": "2973b4393215577d",
+        "id": "ea9b8fd5e769fb37",
         "type": "tabs",
         "children": [
           {
-            "id": "1dfe907b325cedeb",
+            "id": "0a61e3bf9601e3fc",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "2bfc70431d9628cf",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -50,7 +60,7 @@
             }
           },
           {
-            "id": "a724cc51d2a8c383",
+            "id": "1d3371b49be664c1",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -58,41 +68,27 @@
               "icon": "lucide-bookmark",
               "title": "Bookmarks"
             }
-          },
-          {
-            "id": "0a3dc2e67703d518",
-            "type": "leaf",
-            "state": {
-              "type": "file-explorer",
-              "state": {
-                "sortOrder": "alphabetical"
-              },
-              "icon": "lucide-folder-closed",
-              "title": "Files"
-            }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 203.5
+    "width": 300
   },
   "right": {
-    "id": "024beebead04524c",
+    "id": "5fb5fa43b9253904",
     "type": "split",
     "children": [
       {
-        "id": "37caaecea2d27b27",
+        "id": "59090501d6b5d1c6",
         "type": "tabs",
         "children": [
           {
-            "id": "20b3e181a6ab4999",
+            "id": "79a6f1d39dd12cca",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "dsa/space and time complexity.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,25 +98,24 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for space and time complexity"
+              "title": "Backlinks"
             }
           },
           {
-            "id": "6e9cd9dafcbb4efd",
+            "id": "3c00745c170973d6",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "dsa/space and time complexity.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from space and time complexity"
+              "title": "Outgoing links"
             }
           },
           {
-            "id": "9803aac9d368cdb0",
+            "id": "a1e2fe91d9659d12",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -133,19 +128,17 @@
             }
           },
           {
-            "id": "f39cb3d5de81633c",
+            "id": "b960e3b85ae83e1c",
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "dsa/space and time complexity.md"
-              },
+              "state": {},
               "icon": "lucide-list",
-              "title": "Outline of space and time complexity"
+              "title": "Outline"
             }
           },
           {
-            "id": "c4f6609381d66341",
+            "id": "99b35a1f4b2e759e",
             "type": "leaf",
             "state": {
               "type": "calendar",
@@ -155,7 +148,7 @@
             }
           },
           {
-            "id": "cf71074d9c7890fb",
+            "id": "a1ecdf3d4d02e424",
             "type": "leaf",
             "state": {
               "type": "git-view",
@@ -169,7 +162,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 383.5
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -184,54 +177,18 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "cf71074d9c7890fb",
+  "active": "a1ecdf3d4d02e424",
   "lastOpenFiles": [
-    "Machine Learning/images/Pasted image 20241203105312.png",
-    "pages/contents.md",
-    "Machine Learning/images/Pasted image 20241203100949.png",
-    "Machine Learning/Hands-on Machine Learning with Scikit-Learn, Keras, and TensorFlow (Aurélien Géron) (Z-Library).pdf",
     "Machine Learning/4. Linear regression.md",
-    "Untitled 1.canvas",
     "Untitled.canvas",
-    "Machine Learning/1. Intro to Machine learning.md",
-    "Machine Learning/images/Pasted image 20241202102747.png",
-    "Machine Learning/Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow Notes.md",
-    "Machine Learning/2. Machine learning Development life cycle (MLDLC, MLDC).md",
-    "Untitled",
-    "Artificial Intelligence A Modern Approach (Dr. Peter Norvig , Stuart Russell) (Z-Library).pdf",
-    "Machine Learning/Setting things up.md",
     "Machine Learning/3. Tensors.md",
-    "Bad Blood Secrets and Lies in a Silicon Valley Startup (John Carreyrou) (Z-Library).epub",
-    "Artificial Intelligence A Modern Approach - 3rd edition (Stuart Russell, Peter Norvig) .pdf",
-    "ai",
-    "redirection",
-    "Bad Blood Secrets and Lies in a Silicon Valley Startup (John Carreyrou) (Z-Library).md",
-    "time table.png",
-    "Machine Learning/images/Pasted image 20241129093613.png",
-    "Machine Learning/images/Pasted image 20241129091953.png",
-    "Machine Learning/images/Pasted image 20241129091357.png",
-    "Machine Learning/images/Pasted image 20241129091215.png",
-    "project ideas/stock exchange with virtual money.md",
-    "project ideas/viral meme hub.md",
-    "name",
-    "age",
-    "Machine Learning/images/Pasted image 20241123123226.png",
-    "Machine Learning/images/Pasted image 20241123060301.png",
-    "Excalidraw/Drawing 2024-11-23 05.05.19.excalidraw.md",
-    "Excalidraw/Drawing 2024-11-23 05.06.18.excalidraw.md",
-    "Untitled 1.md",
-    "Machine Learning/images",
     "dsa/prime/2. Array.md",
-    "data science/python.md",
+    "time table.png",
     "dsa/prime/1. Time- space complexity.md",
-    "dsa/space and time complexity.md",
-    "dsa/set matrix zero.md",
-    "dsa/Recursion.md",
+    "system design/class 02- real time data System Design.pdf",
+    "system design/Class 03 - Monolith Microservices gRPC webhook.pdf",
+    "system design",
     "C lang/syntax.md",
-    "Excalidraw/stock exchange platform.md",
-    "Rust lang/2- Ownership.md",
-    "Rust lang/1-  Syntax.md",
-    "Rust lang/The stack and the heap.md",
-    "Rust lang/Memory and Allocation.md"
+    "C lang"
   ]
 }
