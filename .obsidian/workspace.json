@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "e1a2005ace8d95aa",
+        "id": "39c70a0399b880e8",
         "type": "tabs",
         "children": [
           {
-            "id": "8d313779b5055b99",
+            "id": "4037e689f6ef6744",
             "type": "leaf",
             "state": {
-              "type": "empty",
+              "type": "graph",
               "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
         ]
@@ -36,7 +36,8 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "alphabetical",
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -177,16 +178,41 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "a1ecdf3d4d02e424",
+  "active": "4037e689f6ef6744",
   "lastOpenFiles": [
-    "Machine Learning/4. Linear regression.md",
-    "Untitled.canvas",
-    "Machine Learning/3. Tensors.md",
-    "dsa/prime/2. Array.md",
-    "time table.png",
-    "dsa/prime/1. Time- space complexity.md",
-    "system design/class 02- real time data System Design.pdf",
+    "Machine Learning/AI quick notes/Module 8 - kNN & Classification Performance Metrics.md",
+    "Machine Learning/AI quick notes/Module 7 - Classification Algorithms.md",
+    "Machine Learning/AI quick notes/Module 6- Extension of our linear regression formulation to non-linear problems.md",
     "system design/Class 03 - Monolith Microservices gRPC webhook.pdf",
+    "Rust lang/2- Ownership.md",
+    "Machine Learning/4. Linear regression.md",
+    "Machine Learning/3. Tensors.md",
+    "Machine Learning/2. Machine learning Development life cycle (MLDLC, MLDC).md",
+    "Machine Learning/1. Intro to Machine learning.md",
+    "Machine Learning/AI quick notes/Machine Learning intro.md",
+    "Machine Learning/AI quick notes",
+    "Machine Learning/Untitled.md",
+    "time table.png",
+    "Rust lang/Memory and Allocation.md",
+    "Rust lang/The stack and the heap.md",
+    "project ideas/paper-trade/stock exchange with virtual money.md",
+    "project ideas/paper-trade/Tasks.md",
+    "Dsa/prime/1. Time- space complexity.md",
+    "project ideas/paper-trade",
+    "Dsa/prime/4. Binary search.md",
+    "Dsa/prime/images",
+    "Dsa/prime/images/Pasted image 20250102143417.png",
+    "Dsa/prime/5.  The two crystal ball problem.md",
+    "Dsa/prime/images/Pasted image 20250102152208.png",
+    "Dsa/prime/3. Linear search.md",
+    "Dsa/prime/2. Array.md",
+    "Dsa/prime/images/Pasted image 20250102150202.png",
+    "Excalidraw/Drawing 2025-01-02 14.29.57.excalidraw.md",
+    "Daily summary",
+    "Excalidraw/Drawing 2024-11-23 05.05.19.excalidraw.md",
+    "2025-01-02.md",
+    "Untitled.canvas",
+    "system design/class 02- real time data System Design.pdf",
     "system design",
     "C lang/syntax.md",
     "C lang"
