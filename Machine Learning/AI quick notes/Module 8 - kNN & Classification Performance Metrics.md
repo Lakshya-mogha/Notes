@@ -1,5 +1,5 @@
 ## 🔹 Learning Objectives
-- Enhancing **k-Nearest Neighbors (kNN)**
+- Enhancing **k-Nearest Neighbours (kNN)**
 - Understanding **kNN for Regression**
 - Exploring **Computational Complexity of kNN**
 - Learning **Performance Metrics for Classification**
@@ -14,7 +14,7 @@
 ### 📌 Choosing the Right k
 - **Low k** → Overfitting (Highly unstable boundary)
 - **Optimal k** → Balanced decision boundary
-- **High k** → Oversmoothing (All classified into the majority class)
+- **High k** → Over smoothing (All classified into the majority class)
 - **Solution:** Use **Cross-Validation** to select the best k.
 
 ### 📌 Handling Tie Cases
@@ -61,14 +61,14 @@ print("Predicted Salary:", knn_reg.predict([[6]]))
 
 ## 🔹 Computational Complexity of kNN
 ### 📌 Brute Force kNN
-- **Training Time:** \( O(1) \)
-- **Prediction Time:** \( O(k \cdot n \cdot d) \)
-- **Prediction Space:** \( O(1) \)
+- **Training Time:** $O(1)$
+- **Prediction Time:** $O(k \cdot n \cdot d)$
+- **Prediction Space:** $O(1)$
 
 ### 📌 k-d Tree Optimized kNN
-- **Training Time:** \( O(d \cdot n \log n) \)
-- **Prediction Time:** \( O(k \cdot \log n) \)
-- **Space Complexity:** \( O(d \cdot n) \)
+- **Training Time:** $O(d \cdot n \log n)$
+- **Prediction Time:** $O(k \cdot \log n)$
+- **Space Complexity:** $O(d \cdot n)$
 
 ---
 
@@ -84,23 +84,23 @@ A **table summarizing classification results**:
 
 ### 📌 Accuracy
 
-\[ \text{Accuracy} = \frac{TP + TN}{TP + TN + FP + FN} \]
+$\text{Accuracy} = \frac{TP + TN}{TP + TN + FP + FN}$
 
 ### 📌 Precision
 
-\[ \text{Precision} = \frac{TP}{TP + FP} \]
+$\text{Precision} = \frac{TP}{TP + FP}$
 
 *High precision minimizes False Positives.*
 
 ### 📌 Recall (Sensitivity)
 
-\[ \text{Recall} = \frac{TP}{TP + FN} \]
+$\text{Recall} = \frac{TP}{TP + FN}$
 
 *High recall minimizes False Negatives.*
 
 ### 📌 F1-Score
 
-\[ \text{F1} = 2 \times \frac{\text{Precision} \times \text{Recall}}{\text{Precision} + \text{Recall}} \]
+$\text{F1} = 2 \times \frac{\text{Precision} \times \text{Recall}}{\text{Precision} + \text{Recall}}$
 
 ### 📌 Python Example: Classification Metrics
 ```python

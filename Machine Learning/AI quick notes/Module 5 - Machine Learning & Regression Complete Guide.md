@@ -1,5 +1,3 @@
-# 📘 Machine Learning & Regression: Complete Guide
-
 ## 🔹 Introduction to Machine Learning
 
 Machine Learning (ML) is a subset of **Artificial Intelligence (AI)** that enables computers to learn from data and make predictions or decisions **without being explicitly programmed**.
@@ -44,7 +42,7 @@ The goal is to find a function **f(x)** that maps inputs to outputs.
 
 A simple linear regression equation:
 
-\[ y = w_1 x_1 + w_2 x_2 + ... + w_n x_n + b \]
+$$y = w_1 x_1 + w_2 x_2 + ... + w_n x_n + b$$
 
 ---
 
@@ -53,9 +51,9 @@ A simple linear regression equation:
 
 To minimize the prediction error, we use the **Least Squares Method**:
 
-\[ J(w) = \sum (y_i - \hat{y}_i)^2 \]
+$$ J(w) = \sum (y_i - \hat{y}_i)^2 $$
 
-where \( y_i \) is the actual value and \( \hat{y}_i \) is the predicted value.
+where $y_i$ is the actual value and $\hat{y}_i$ is the predicted value.
 
 ### 📌 Gradient Descent
 

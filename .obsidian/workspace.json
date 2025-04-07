@@ -4,17 +4,31 @@
     "type": "split",
     "children": [
       {
-        "id": "39c70a0399b880e8",
+        "id": "35c1322d0feb292e",
         "type": "tabs",
         "children": [
           {
-            "id": "4037e689f6ef6744",
+            "id": "8805cbc3186f4018",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "Machine Learning/AI quick notes/Module 12 - Projects.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Module 12 - Projects"
             }
           }
         ]
@@ -74,7 +88,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 425.5
   },
   "right": {
     "id": "5fb5fa43b9253904",
@@ -163,7 +177,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 425.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -178,24 +192,31 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "4037e689f6ef6744",
+  "active": "a1ecdf3d4d02e424",
   "lastOpenFiles": [
+    "Machine Learning/AI quick notes/Module 11 - Data Visualization Principles.md",
+    "Machine Learning/AI quick notes/Module 12 - Projects.md",
+    "Machine Learning/AI quick notes/Module 10 - Clustering Algorithms.md",
+    "project ideas/paper-trade/stock exchange with virtual money.md",
+    "Machine Learning/AI quick notes/Module 9 - Dimensionality Reduction & PCA.md",
+    "Machine Learning/AI quick notes/Module 5 - Machine Learning & Regression Complete Guide.md",
+    "Untitled.md",
     "Machine Learning/AI quick notes/Module 8 - kNN & Classification Performance Metrics.md",
+    "Untitled 2.md",
+    "Untitled 1.md",
     "Machine Learning/AI quick notes/Module 7 - Classification Algorithms.md",
     "Machine Learning/AI quick notes/Module 6- Extension of our linear regression formulation to non-linear problems.md",
+    "Machine Learning/1. Intro to Machine learning.md",
     "system design/Class 03 - Monolith Microservices gRPC webhook.pdf",
     "Rust lang/2- Ownership.md",
     "Machine Learning/4. Linear regression.md",
     "Machine Learning/3. Tensors.md",
     "Machine Learning/2. Machine learning Development life cycle (MLDLC, MLDC).md",
-    "Machine Learning/1. Intro to Machine learning.md",
-    "Machine Learning/AI quick notes/Machine Learning intro.md",
     "Machine Learning/AI quick notes",
     "Machine Learning/Untitled.md",
     "time table.png",
     "Rust lang/Memory and Allocation.md",
     "Rust lang/The stack and the heap.md",
-    "project ideas/paper-trade/stock exchange with virtual money.md",
     "project ideas/paper-trade/Tasks.md",
     "Dsa/prime/1. Time- space complexity.md",
     "project ideas/paper-trade",
@@ -207,14 +228,10 @@
     "Dsa/prime/3. Linear search.md",
     "Dsa/prime/2. Array.md",
     "Dsa/prime/images/Pasted image 20250102150202.png",
-    "Excalidraw/Drawing 2025-01-02 14.29.57.excalidraw.md",
     "Daily summary",
-    "Excalidraw/Drawing 2024-11-23 05.05.19.excalidraw.md",
-    "2025-01-02.md",
     "Untitled.canvas",
     "system design/class 02- real time data System Design.pdf",
     "system design",
-    "C lang/syntax.md",
     "C lang"
   ]
 }

@@ -30,11 +30,11 @@ Classification is a supervised learning task where the goal is to predict **disc
 
 A **probabilistic classifier** based on **Bayes' Theorem**, assuming **independent features**:
 
-\[ P(Y|X) = \frac{P(X|Y) P(Y)}{P(X)} \]
+$$ P(Y|X) = \frac{P(X|Y) P(Y)}{P(X)} $$
 
 Where:
 
-- \( P(Y|X) \) → Posterior Probability (probability of class Y given features X)
+- $P(Y|X)$ → Posterior Probability (probability of class Y given features X)
 - \( P(X|Y) \) → Likelihood (probability of X given class Y)
 - \( P(Y) \) → Prior Probability (probability of class Y before seeing data)
 - \( P(X) \) → Evidence (total probability of data X)
