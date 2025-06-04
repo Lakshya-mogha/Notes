@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "35c1322d0feb292e",
+        "id": "725c319cbea82031",
         "type": "tabs",
         "children": [
           {
-            "id": "8805cbc3186f4018",
+            "id": "3114cc7e8a07a7de",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Machine Learning/AI quick notes/Module 12 - Projects.md",
+                "file": "Machine Learning/CS-231n (deep learning - computer vision ) stanford/2. Image Classification pipeline.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Module 12 - Projects"
+              "title": "2. Image Classification pipeline"
             }
           }
         ]
@@ -63,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": " ",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -88,7 +88,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 425.5
+    "width": 325.5
   },
   "right": {
     "id": "5fb5fa43b9253904",
@@ -136,20 +136,12 @@
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-tags",
               "title": "Tags"
-            }
-          },
-          {
-            "id": "b960e3b85ae83e1c",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {},
-              "icon": "lucide-list",
-              "title": "Outline"
             }
           },
           {
@@ -171,13 +163,28 @@
               "icon": "git-pull-request",
               "title": "Source Control"
             }
+          },
+          {
+            "id": "14de929132359aec",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Machine Learning/CS-231n (deep learning - computer vision ) stanford/2. Image Classification pipeline.md",
+                "followCursor": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of 2. Image Classification pipeline"
+            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 425.5
+    "width": 325.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -194,39 +201,42 @@
   },
   "active": "a1ecdf3d4d02e424",
   "lastOpenFiles": [
-    "Machine Learning/AI quick notes/Module 11 - Data Visualization Principles.md",
-    "Machine Learning/AI quick notes/Module 12 - Projects.md",
-    "Machine Learning/AI quick notes/Module 10 - Clustering Algorithms.md",
+    "Machine Learning/prsnl studies/2. Classification, Decision Trees and k Nearest Neighbours.md",
+    "Machine Learning/AI quick notes (college)/Module 7 - Classification Algorithms.md",
+    "Machine Learning/AI quick notes (college)/Module 8 - kNN & Classification Performance Metrics.md",
+    "Machine Learning/AI quick notes (college)/Module 5 - Machine Learning & Regression Complete Guide.md",
+    "Machine Learning/CS-231n (deep learning - computer vision ) stanford/2. Image Classification pipeline.md",
+    "Machine Learning/images/IMG_20250605_040029.jpg",
+    "Machine Learning/AI quick notes (college)/Module 6- Extension of our linear regression formulation to non-linear problems.md",
+    "Machine Learning/prsnl studies/1. Introduction.md",
+    "Machine Learning/CS-231n (deep learning - computer vision ) stanford/1. Introduction.md",
+    "cs231n.github.io.md",
+    "Machine Learning/CS-231n (deep learning - computer vision ) stanford",
+    "Machine Learning/Untitled.md",
+    "Machine Learning/AI quick notes (college)/Module 12 - Projects.md",
+    "Machine Learning/3. Tensors.md",
+    "Machine Learning/4. Linear regression.md",
+    "Machine Learning/AI quick notes (college)/Module 11 - Data Visualization Principles.md",
+    "Machine Learning/images/Pasted image 20250601180609.png",
+    "Machine Learning/1. Intro to Machine learning.md",
+    "Machine Learning/prsnl studies",
+    "Machine Learning/AI quick notes (college)/Module 10 - Clustering Algorithms.md",
     "project ideas/paper-trade/stock exchange with virtual money.md",
-    "Machine Learning/AI quick notes/Module 9 - Dimensionality Reduction & PCA.md",
-    "Machine Learning/AI quick notes/Module 5 - Machine Learning & Regression Complete Guide.md",
+    "Machine Learning/AI quick notes (college)/Module 9 - Dimensionality Reduction & PCA.md",
     "Untitled.md",
-    "Machine Learning/AI quick notes/Module 8 - kNN & Classification Performance Metrics.md",
     "Untitled 2.md",
     "Untitled 1.md",
-    "Machine Learning/AI quick notes/Module 7 - Classification Algorithms.md",
-    "Machine Learning/AI quick notes/Module 6- Extension of our linear regression formulation to non-linear problems.md",
-    "Machine Learning/1. Intro to Machine learning.md",
     "system design/Class 03 - Monolith Microservices gRPC webhook.pdf",
     "Rust lang/2- Ownership.md",
-    "Machine Learning/4. Linear regression.md",
-    "Machine Learning/3. Tensors.md",
     "Machine Learning/2. Machine learning Development life cycle (MLDLC, MLDC).md",
-    "Machine Learning/AI quick notes",
-    "Machine Learning/Untitled.md",
+    "Machine Learning/AI quick notes (college)",
     "time table.png",
     "Rust lang/Memory and Allocation.md",
     "Rust lang/The stack and the heap.md",
-    "project ideas/paper-trade/Tasks.md",
-    "Dsa/prime/1. Time- space complexity.md",
     "project ideas/paper-trade",
-    "Dsa/prime/4. Binary search.md",
     "Dsa/prime/images",
     "Dsa/prime/images/Pasted image 20250102143417.png",
-    "Dsa/prime/5.  The two crystal ball problem.md",
     "Dsa/prime/images/Pasted image 20250102152208.png",
-    "Dsa/prime/3. Linear search.md",
-    "Dsa/prime/2. Array.md",
     "Dsa/prime/images/Pasted image 20250102150202.png",
     "Daily summary",
     "Untitled.canvas",

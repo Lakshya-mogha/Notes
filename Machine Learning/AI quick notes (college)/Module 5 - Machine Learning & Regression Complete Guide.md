@@ -59,9 +59,9 @@ where $y_i$ is the actual value and $\hat{y}_i$ is the predicted value.
 
 Gradient Descent optimizes weights by updating them iteratively:
 
-\[ w = w - \alpha \frac{\partial J}{\partial w} \]
+$w = w - \alpha \frac{\partial J}{\partial w}$
 
-where \( \alpha \) is the learning rate.
+where $\alpha$ is the learning rate.
 
 ---
 
@@ -70,7 +70,7 @@ where \( \alpha \) is the learning rate.
 
 In a simple model:
 
-\[ y = w_1 x_1 + w_2 x_2 \]
+$y = w_1 x_1 + w_2 x_2$
 
 If we force the model to pass through the origin, it becomes inflexible.
 
@@ -78,7 +78,7 @@ If we force the model to pass through the origin, it becomes inflexible.
 
 Introduce a **bias term** (b):
 
-\[ y = w_1 x_1 + w_2 x_2 + b \]
+$y = w_1 x_1 + w_2 x_2 + b$
 
 This improves the model’s ability to fit data.
 

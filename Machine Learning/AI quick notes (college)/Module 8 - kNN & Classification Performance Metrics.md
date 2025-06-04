@@ -26,9 +26,9 @@
 
 Instead of hard classification, return probabilities for each class:
 
-\[ P(y_i) = \frac{k_i}{k} \]
+$P(y_i) = \frac{k_i}{k}$
 
-where **k_i** is the number of neighbors in class **y_i**.
+where **k_i** is the number of neighbours in class **y_i**.
 
 ---
 
