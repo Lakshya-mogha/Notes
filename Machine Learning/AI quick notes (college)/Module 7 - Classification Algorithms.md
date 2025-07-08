@@ -114,3 +114,5 @@ print("kNN Accuracy:", accuracy_score(y_test, y_pred_knn))
 ✅ **Classification predicts discrete class labels**  
 ✅ **Naïve Bayes** is a **probabilistic classifier** using **Bayes' Theorem**  
 ✅ **kNN** is a **distance-based classifier** using **majority voting**  
+
+[[Module 8 - kNN & Classification Performance Metrics]]

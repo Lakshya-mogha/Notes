@@ -1,30 +1,35 @@
 ---
-
 excalidraw-plugin: parsed
 tags: [excalidraw]
-
 ---
-==⚠  Switch to EXCALIDRAW VIEW in the MORE OPTIONS menu of this document. ⚠== You can decompress Drawing data with the command palette: 'Decompress current Excalidraw file'. For more info check in plugin settings under 'Saving'
+
+==⚠ Switch to EXCALIDRAW VIEW in the MORE OPTIONS menu of this document. ⚠== You can decompress Drawing data with the command palette: 'Decompress current Excalidraw file'. For more info check in plugin settings under 'Saving'
 
 - # Excalidraw Data
 - ## Text Elements
+
   user logs in
+
   assigned a 
+
   dummy portfolio
+
   with 1L rs.
+
   ^kKuwXd8V
-  
-  3 diff dummy portfolio  ^OWu2o9CT
-  
+
+  3 diff dummy portfolio ^OWu2o9CT
+
   1L ^i9fYyuo8
-  
+
   1L ^iaYHy6OE
-  
+
   1L ^XFBcUo2K
-  
-  can be operated individually runs along with real time data  ^6WVG3Czc
-  
+
+  can be operated individually runs along with real time data ^6WVG3Czc
+
   %%
+
 - ## Drawing
   ```compressed-json
   N4KAkARALgngDgUwgLgAQQQDwMYEMA2AlgCYBOuA7hADTgQBuCpAzoQPYB2KqATLZMzYBXUtiRoIACyhQ4zZAHoFAc0JRJQgEYA6bGwC2CgF7N6hbEcK4OCtptbErHALRY8RMpWdx8Q1TdIEfARcZgRmBShcZQUebQAWbQBmGjoghH0EDihmbgBtcDBQMBKIEm4IAFEYDiEYBAAJAEYAEWdceIA2CgBlFoAFekQuflLYRArA7CiOZWDUkshMbmck
@@ -105,4 +110,5 @@ tags: [excalidraw]
   
   fuVfN+4qzcQXcRgG7HzlN9z5CEcaOkGmBHI/uYIAwOHIGSHT1mx1BSIjlIjwLwFkCqMianAAGQJcwQYMNxEjBAA=
   ```
+
   %%

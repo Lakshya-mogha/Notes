@@ -130,3 +130,5 @@ print("Standardized Features:", scaled_features)
 ✅ **Cross-Validation** helps find optimal model complexity.  
 ✅ **Regularization (L2 - Ridge Regression)** prevents overfitting.  
 ✅ **Feature Standardization** ensures fair influence of features.  
+
+[[Module 7 - Classification Algorithms]]

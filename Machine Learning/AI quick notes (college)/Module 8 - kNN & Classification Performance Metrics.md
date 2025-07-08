@@ -162,3 +162,5 @@ plt.show()
 ✅ **Computational Complexity**: Brute-force vs. **k-d tree** optimization.  
 ✅ **Classification Metrics**: Confusion Matrix, Accuracy, Precision, Recall, F1-Score.  
 ✅ **AUC-ROC**: Measures classification performance.
+
+[[Module 9 - Dimensionality Reduction & PCA]]

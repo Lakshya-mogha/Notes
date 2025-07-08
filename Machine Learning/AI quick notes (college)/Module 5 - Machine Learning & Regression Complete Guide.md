@@ -116,3 +116,5 @@ print(f"Predicted Price: ${predicted_price[0] * 1000:.2f}")
 ✅ **Least Squares & Gradient Descent**: Methods to minimize prediction error.  
 ✅ **Bias Term**: Improves model flexibility.  
 ✅ **Python Example**: Implemented a regression model for house price prediction.  
+
+[[Module 6- Extension of our linear regression formulation to non-linear problems]]

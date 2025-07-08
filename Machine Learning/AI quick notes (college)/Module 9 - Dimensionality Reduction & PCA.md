@@ -103,3 +103,5 @@ Would you like to:
 3️⃣ **Visualize PCA with high-dimensional datasets?**  
 
 Let me know how you'd like to proceed! 🚀
+
+[[Module 10 - Clustering Algorithms]]

@@ -148,3 +148,7 @@ Think of model deployment more broadly as **online inference in the cloud**.
 ### Code Reference
 
 🔗 [Flask Example on GitHub](https://github.com/debanga/flask_example)
+
+---
+
+[[Module 12 - Projects]]

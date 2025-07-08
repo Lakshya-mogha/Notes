@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "725c319cbea82031",
+        "id": "afe1f8896c52fc47",
         "type": "tabs",
         "children": [
           {
-            "id": "3114cc7e8a07a7de",
+            "id": "cc331bc0a3905da4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Machine Learning/CS-231n (deep learning - computer vision ) stanford/2. Image Classification pipeline.md",
-                "mode": "source",
+                "file": "Ai/RAG/Rag chatbots.md",
+                "mode": "preview",
                 "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -28,10 +28,35 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2. Image Classification pipeline"
+              "title": "Rag chatbots"
+            }
+          },
+          {
+            "id": "863e2a545b572f80",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "AI Learning Roadmap for Beginners.md",
+                "mode": "preview",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "AI Learning Roadmap for Beginners"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -88,7 +113,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 325.5
+    "width": 394.5
   },
   "right": {
     "id": "5fb5fa43b9253904",
@@ -104,6 +129,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Machine Learning/CS-231n (deep learning - computer vision ) stanford/2. Image Classification pipeline.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +139,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for 2. Image Classification pipeline"
             }
           },
           {
@@ -122,11 +148,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Machine Learning/AI quick notes (college)/Module 5 - Machine Learning & Regression Complete Guide.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "Outgoing links from Module 5 - Machine Learning & Regression Complete Guide"
             }
           },
           {
@@ -145,16 +172,6 @@
             }
           },
           {
-            "id": "99b35a1f4b2e759e",
-            "type": "leaf",
-            "state": {
-              "type": "calendar",
-              "state": {},
-              "icon": "calendar-with-checkmark",
-              "title": "Calendar"
-            }
-          },
-          {
             "id": "a1ecdf3d4d02e424",
             "type": "leaf",
             "state": {
@@ -170,21 +187,31 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Machine Learning/CS-231n (deep learning - computer vision ) stanford/2. Image Classification pipeline.md",
+                "file": "AI Learning Roadmap for Beginners.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 2. Image Classification pipeline"
+              "title": "Outline of AI Learning Roadmap for Beginners"
+            }
+          },
+          {
+            "id": "1fbb0139ed4bafc5",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 325.5
+    "width": 438.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -195,53 +222,53 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "obsidian-git:Open Git source control": false,
-      "soundscapes:Soundscapes: My Music": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false
+      "soundscapes:Soundscapes: My Music": false
     }
   },
   "active": "a1ecdf3d4d02e424",
   "lastOpenFiles": [
-    "Machine Learning/prsnl studies/2. Classification, Decision Trees and k Nearest Neighbours.md",
-    "Machine Learning/AI quick notes (college)/Module 7 - Classification Algorithms.md",
-    "Machine Learning/AI quick notes (college)/Module 8 - kNN & Classification Performance Metrics.md",
-    "Machine Learning/AI quick notes (college)/Module 5 - Machine Learning & Regression Complete Guide.md",
-    "Machine Learning/CS-231n (deep learning - computer vision ) stanford/2. Image Classification pipeline.md",
-    "Machine Learning/images/IMG_20250605_040029.jpg",
-    "Machine Learning/AI quick notes (college)/Module 6- Extension of our linear regression formulation to non-linear problems.md",
-    "Machine Learning/prsnl studies/1. Introduction.md",
-    "Machine Learning/CS-231n (deep learning - computer vision ) stanford/1. Introduction.md",
-    "cs231n.github.io.md",
-    "Machine Learning/CS-231n (deep learning - computer vision ) stanford",
-    "Machine Learning/Untitled.md",
-    "Machine Learning/AI quick notes (college)/Module 12 - Projects.md",
-    "Machine Learning/3. Tensors.md",
-    "Machine Learning/4. Linear regression.md",
-    "Machine Learning/AI quick notes (college)/Module 11 - Data Visualization Principles.md",
-    "Machine Learning/images/Pasted image 20250601180609.png",
-    "Machine Learning/1. Intro to Machine learning.md",
-    "Machine Learning/prsnl studies",
-    "Machine Learning/AI quick notes (college)/Module 10 - Clustering Algorithms.md",
-    "project ideas/paper-trade/stock exchange with virtual money.md",
-    "Machine Learning/AI quick notes (college)/Module 9 - Dimensionality Reduction & PCA.md",
-    "Untitled.md",
-    "Untitled 2.md",
+    "Advanced AI Learning Roadmap for CS Students with ML Knowledge.md",
+    "AI Learning Roadmap for Beginners.md",
+    "temp.md",
     "Untitled 1.md",
-    "system design/Class 03 - Monolith Microservices gRPC webhook.pdf",
-    "Rust lang/2- Ownership.md",
+    "www.datastax.com.md",
+    "Ai/RAG/Rag chatbots.md",
+    "dsa/college/ds/Lecture 6. Trees and Binary Trees.md",
+    "Ai/RAG",
+    "Ai",
+    "dsa/college/ds/Lecture 5. Queue Data Structures.md",
+    "Excalidraw/stock exchange platform.md",
+    "dsa/college/algo/Lecture 4. Median, Randomized Algorithms & Hashing.md",
+    "dsa/college/algo/Lecture 4. Median, Randomized Algorithms & Hashing 1.md",
+    "Machine Learning/projects/project to do ml.md",
+    "dsa/college/ds",
+    "dsa/college/algo",
+    "Machine Learning/CS-231n (deep learning - computer vision ) stanford/2. Image Classification pipeline.md",
+    "dsa/college",
+    "Machine Learning/CS-231n (deep learning - computer vision ) stanford/1. Introduction.md",
+    "Machine Learning/AI quick notes (college)/Module 5 - Machine Learning & Regression Complete Guide.md",
     "Machine Learning/2. Machine learning Development life cycle (MLDLC, MLDC).md",
+    "Machine Learning/1. Intro to Machine learning.md",
+    "Machine Learning/prsnl studies/2. Classification, Decision Trees and k Nearest Neighbours.md",
+    "Machine Learning/projects",
+    "Machine Learning/AI quick notes (college)/Module 10 - Clustering Algorithms.md",
+    "Machine Learning/AI quick notes (college)/Module 11 - Data Visualization Principles.md",
+    "Machine Learning/AI quick notes (college)/Module 12 - Projects.md",
+    "Machine Learning/AI quick notes (college)/Module 9 - Dimensionality Reduction & PCA.md",
+    "Machine Learning/AI quick notes (college)/Module 8 - kNN & Classification Performance Metrics.md",
+    "Machine Learning/AI quick notes (college)/Module 7 - Classification Algorithms.md",
+    "Machine Learning/AI quick notes (college)/Module 6- Extension of our linear regression formulation to non-linear problems.md",
+    "2025-06-05.md",
+    "Machine Learning/images/IMG_20250605_040029.jpg",
+    "Machine Learning/CS-231n (deep learning - computer vision ) stanford",
+    "Machine Learning/images/Pasted image 20250601180609.png",
+    "Machine Learning/prsnl studies",
+    "system design/Class 03 - Monolith Microservices gRPC webhook.pdf",
     "Machine Learning/AI quick notes (college)",
     "time table.png",
-    "Rust lang/Memory and Allocation.md",
-    "Rust lang/The stack and the heap.md",
-    "project ideas/paper-trade",
-    "Dsa/prime/images",
     "Dsa/prime/images/Pasted image 20250102143417.png",
     "Dsa/prime/images/Pasted image 20250102152208.png",
     "Dsa/prime/images/Pasted image 20250102150202.png",
-    "Daily summary",
-    "Untitled.canvas",
-    "system design/class 02- real time data System Design.pdf",
-    "system design",
-    "C lang"
+    "Untitled.canvas"
   ]
 }
