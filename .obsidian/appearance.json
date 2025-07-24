@@ -1,7 +1,7 @@
 {
-  "theme": "system",
-  "cssTheme": "",
+  "theme": "obsidian",
+  "cssTheme": "Material Gruvbox",
   "accentColor": "",
   "interfaceFontFamily": "JetBrainsMono Nerd Font Mono",
-  "textFontFamily": "Inter"
+  "textFontFamily": "JetBrainsMono Nerd Font Mono"
 }

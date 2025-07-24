@@ -4,59 +4,26 @@
     "type": "split",
     "children": [
       {
-        "id": "afe1f8896c52fc47",
+        "id": "c4cb626ef59e18b7",
         "type": "tabs",
         "children": [
           {
-            "id": "cc331bc0a3905da4",
+            "id": "8c3f05e68cac6598",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "Ai/RAG/Rag chatbots.md",
-                "mode": "preview",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
+                "file": "Machine Learning/books/AI Engineering Building Applications with Foundation Models (Chip Huyen).pdf",
+                "page": 25,
+                "left": -4,
+                "top": 572,
+                "zoom": 0.9
               },
-              "icon": "lucide-file",
-              "title": "Rag chatbots"
-            }
-          },
-          {
-            "id": "863e2a545b572f80",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "AI Learning Roadmap for Beginners.md",
-                "mode": "preview",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "AI Learning Roadmap for Beginners"
+              "icon": "lucide-file-text",
+              "title": "AI Engineering Building Applications with Foundation Models (Chip Huyen)"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -88,7 +55,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": " ",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -113,7 +80,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 394.5
+    "width": 288.5
   },
   "right": {
     "id": "5fb5fa43b9253904",
@@ -129,7 +96,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Machine Learning/CS-231n (deep learning - computer vision ) stanford/2. Image Classification pipeline.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +105,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 2. Image Classification pipeline"
+              "title": "Backlinks"
             }
           },
           {
@@ -148,12 +114,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Machine Learning/AI quick notes (college)/Module 5 - Machine Learning & Regression Complete Guide.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Module 5 - Machine Learning & Regression Complete Guide"
+              "title": "Outgoing links"
             }
           },
           {
@@ -172,6 +137,21 @@
             }
           },
           {
+            "id": "b960e3b85ae83e1c",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Machine Learning/books/AI Engineering Building Applications with Foundation Models (Chip Huyen).pdf",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of AI Engineering Building Applications with Foundation Models (Chip Huyen)"
+            }
+          },
+          {
             "id": "a1ecdf3d4d02e424",
             "type": "leaf",
             "state": {
@@ -182,22 +162,7 @@
             }
           },
           {
-            "id": "14de929132359aec",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "AI Learning Roadmap for Beginners.md",
-                "followCursor": true,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-list",
-              "title": "Outline of AI Learning Roadmap for Beginners"
-            }
-          },
-          {
-            "id": "1fbb0139ed4bafc5",
+            "id": "6ec1837fcf74da66",
             "type": "leaf",
             "state": {
               "type": "calendar",
@@ -207,11 +172,11 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 438.5
+    "width": 445.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -222,50 +187,54 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "obsidian-git:Open Git source control": false,
-      "soundscapes:Soundscapes: My Music": false
+      "soundscapes:Soundscapes: My Music": false,
+      "pdf-plus:PDF++: Toggle auto-copy": false,
+      "pdf-plus:PDF++: Toggle auto-focus": false,
+      "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
   "active": "a1ecdf3d4d02e424",
   "lastOpenFiles": [
+    "Machine Learning/books/AI Engineering Building Applications with Foundation Models (Chip Huyen).pdf",
+    "Machine Learning/books/Deep_Reinforcement_Learning_Hands-On_3rd_ed_-_Maxim_Lapan.pdf",
+    "Machine Learning/books/LLM Engineer’s Handbook (Paul Iusztin ,Maxime Labonne).epub",
+    "Machine Learning/prsnl studies/Untitled.md",
+    "Machine Learning/prsnl studies/2. Classification, Decision Trees and k Nearest Neighbours.md",
+    "Machine Learning/books/the-hundred-page-machine-learning.pdf",
+    "Machine Learning/1. Intro to Machine learning.md",
+    "Machine Learning/2. Machine learning Development life cycle (MLDLC, MLDC).md",
+    "Machine Learning/books/papers/Model Evaluation, Model Selection, and Algorithm selection in machine learning.pdf",
+    "Machine Learning/books/papers",
+    "Machine Learning/books/New folder",
+    "Machine Learning/books/Stas Bekman - Machine Learning Engineering.pdf",
+    "books/deep reinforcement learning hands-on_maxim lapan 3ed.epub",
+    "books/deep reinforcement learning hands-on_maxim lapan 3ed.epub.part",
+    "Machine Learning/books",
     "Advanced AI Learning Roadmap for CS Students with ML Knowledge.md",
     "AI Learning Roadmap for Beginners.md",
-    "temp.md",
-    "Untitled 1.md",
-    "www.datastax.com.md",
-    "Ai/RAG/Rag chatbots.md",
-    "dsa/college/ds/Lecture 6. Trees and Binary Trees.md",
-    "Ai/RAG",
-    "Ai",
-    "dsa/college/ds/Lecture 5. Queue Data Structures.md",
-    "Excalidraw/stock exchange platform.md",
-    "dsa/college/algo/Lecture 4. Median, Randomized Algorithms & Hashing.md",
-    "dsa/college/algo/Lecture 4. Median, Randomized Algorithms & Hashing 1.md",
-    "Machine Learning/projects/project to do ml.md",
-    "dsa/college/ds",
-    "dsa/college/algo",
-    "Machine Learning/CS-231n (deep learning - computer vision ) stanford/2. Image Classification pipeline.md",
-    "dsa/college",
-    "Machine Learning/CS-231n (deep learning - computer vision ) stanford/1. Introduction.md",
-    "Machine Learning/AI quick notes (college)/Module 5 - Machine Learning & Regression Complete Guide.md",
-    "Machine Learning/2. Machine learning Development life cycle (MLDLC, MLDC).md",
-    "Machine Learning/1. Intro to Machine learning.md",
-    "Machine Learning/prsnl studies/2. Classification, Decision Trees and k Nearest Neighbours.md",
-    "Machine Learning/projects",
-    "Machine Learning/AI quick notes (college)/Module 10 - Clustering Algorithms.md",
-    "Machine Learning/AI quick notes (college)/Module 11 - Data Visualization Principles.md",
-    "Machine Learning/AI quick notes (college)/Module 12 - Projects.md",
-    "Machine Learning/AI quick notes (college)/Module 9 - Dimensionality Reduction & PCA.md",
-    "Machine Learning/AI quick notes (college)/Module 8 - kNN & Classification Performance Metrics.md",
-    "Machine Learning/AI quick notes (college)/Module 7 - Classification Algorithms.md",
-    "Machine Learning/AI quick notes (college)/Module 6- Extension of our linear regression formulation to non-linear problems.md",
-    "2025-06-05.md",
-    "Machine Learning/images/IMG_20250605_040029.jpg",
-    "Machine Learning/CS-231n (deep learning - computer vision ) stanford",
-    "Machine Learning/images/Pasted image 20250601180609.png",
-    "Machine Learning/prsnl studies",
-    "system design/Class 03 - Monolith Microservices gRPC webhook.pdf",
-    "Machine Learning/AI quick notes (college)",
     "time table.png",
+    "Untitled.md",
+    "loan_decision_tree..md",
+    "topic3_hse_instruction 1.png",
+    "Machine Learning/images/topic3_hse_instruction.png",
+    "Machine Learning/images/585257b4a3d001fff62659255bb3f04f9a8be55f4f312a32b0cb0050e51a58b9.png",
+    "Dsa/college/algo/Shortest Path Algorithms - Dijkstra's and Bellman-Ford.md",
+    "Machine Learning/prsnl studies/1. Introduction.md",
+    "Dsa/college/ds/Sorting Algorithms.md",
+    "Machine Learning/CS-231n (deep learning - computer vision ) stanford/2. Image Classification pipeline.md",
+    "Machine Learning/CS-231n (deep learning - computer vision ) stanford/1. Introduction.md",
+    "Dsa/college/algo/Lecture 4. Median, Randomized Algorithms & Hashing.md",
+    "Dsa/college/algo/Lecture 4. Median, Randomized Algorithms & Hashing 1.md",
+    "Dsa/college/ds/Lecture 6. Trees and Binary Trees.md",
+    "Dsa/college/ds/Lecture 5. Queue Data Structures.md",
+    "Machine Learning/projects/project to do ml.md",
+    "Machine Learning/AI quick notes (college)/Module 9 - Dimensionality Reduction & PCA.md",
+    "Machine Learning/AI quick notes (college)/Module 7 - Classification Algorithms.md",
+    "Machine Learning/AI quick notes (college)/Module 8 - kNN & Classification Performance Metrics.md",
+    "Machine Learning/AI quick notes (college)/Module 6- Extension of our linear regression formulation to non-linear problems.md",
+    "Machine Learning/AI quick notes (college)/Module 5 - Machine Learning & Regression Complete Guide.md",
+    "Machine Learning/AI quick notes (college)/Module 12 - Projects.md",
+    "Machine Learning/AI quick notes (college)/Module 11 - Data Visualization Principles.md",
     "Dsa/prime/images/Pasted image 20250102143417.png",
     "Dsa/prime/images/Pasted image 20250102152208.png",
     "Dsa/prime/images/Pasted image 20250102150202.png",
