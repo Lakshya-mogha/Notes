@@ -4,23 +4,31 @@
     "type": "split",
     "children": [
       {
-        "id": "c4cb626ef59e18b7",
+        "id": "770fb56b64bdc329",
         "type": "tabs",
         "children": [
           {
-            "id": "8c3f05e68cac6598",
+            "id": "802605f86924f11a",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "Machine Learning/books/AI Engineering Building Applications with Foundation Models (Chip Huyen).pdf",
-                "page": 25,
-                "left": -4,
-                "top": 572,
-                "zoom": 0.9
+                "file": "college notes/rdbms/Week - 10.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
-              "icon": "lucide-file-text",
-              "title": "AI Engineering Building Applications with Foundation Models (Chip Huyen)"
+              "icon": "lucide-file",
+              "title": "Week - 10"
             }
           }
         ]
@@ -80,7 +88,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 288.5
+    "width": 614.5,
+    "collapsed": true
   },
   "right": {
     "id": "5fb5fa43b9253904",
@@ -142,13 +151,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Machine Learning/books/AI Engineering Building Applications with Foundation Models (Chip Huyen).pdf",
+                "file": "college notes/rdbms/Week - 10.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of AI Engineering Building Applications with Foundation Models (Chip Huyen)"
+              "title": "Outline of Week - 10"
             }
           },
           {
@@ -176,10 +185,11 @@
       }
     ],
     "direction": "horizontal",
-    "width": 445.5
+    "width": 397.5
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Create new base": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -193,23 +203,33 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "a1ecdf3d4d02e424",
+  "active": "802605f86924f11a",
   "lastOpenFiles": [
-    "Machine Learning/books/AI Engineering Building Applications with Foundation Models (Chip Huyen).pdf",
-    "Machine Learning/books/Deep_Reinforcement_Learning_Hands-On_3rd_ed_-_Maxim_Lapan.pdf",
-    "Machine Learning/books/LLM Engineer’s Handbook (Paul Iusztin ,Maxime Labonne).epub",
+    "college notes/economitrics/week-9.md",
+    "college notes/rdbms/Week - 10.md",
+    "college notes/java/DA202 - WEEKS 7 & 8 CRAM SHEET.md",
+    "college notes/Untitled.md",
+    "college notes/java",
+    "college notes/optimisation/Week 9 Exam Study Guide- Simplex Method.md",
+    "college notes/rdbms/week - 7,8,9.md",
+    "college notes/optimisation",
+    "college notes/stats/da103/week 7,8.md",
+    "college notes/rdbms",
+    "college notes/economitrics/week 5, 6.md",
+    "college notes/stats/da103",
+    "college notes/stats",
+    "project ideas/Web-Based Video Editor.md",
+    "college notes/economitrics",
+    "college notes",
+    "Machine Learning/books/notes/AI Engineering - Building Applications with Foundation Models.md",
+    "Machine Learning/books/AI Engineering Building Applications with Foundation Models.pdf",
+    "Machine Learning/books/the hundred page machine learning.pdf",
+    "Machine Learning/books/Stas Bekman - Machine Learning Engineering.pdf",
+    "Machine Learning/books/notes/The Hundred Page Machine Learning Book.md",
     "Machine Learning/prsnl studies/Untitled.md",
     "Machine Learning/prsnl studies/2. Classification, Decision Trees and k Nearest Neighbours.md",
-    "Machine Learning/books/the-hundred-page-machine-learning.pdf",
     "Machine Learning/1. Intro to Machine learning.md",
     "Machine Learning/2. Machine learning Development life cycle (MLDLC, MLDC).md",
-    "Machine Learning/books/papers/Model Evaluation, Model Selection, and Algorithm selection in machine learning.pdf",
-    "Machine Learning/books/papers",
-    "Machine Learning/books/New folder",
-    "Machine Learning/books/Stas Bekman - Machine Learning Engineering.pdf",
-    "books/deep reinforcement learning hands-on_maxim lapan 3ed.epub",
-    "books/deep reinforcement learning hands-on_maxim lapan 3ed.epub.part",
-    "Machine Learning/books",
     "Advanced AI Learning Roadmap for CS Students with ML Knowledge.md",
     "AI Learning Roadmap for Beginners.md",
     "time table.png",
@@ -225,16 +245,6 @@
     "Machine Learning/CS-231n (deep learning - computer vision ) stanford/1. Introduction.md",
     "Dsa/college/algo/Lecture 4. Median, Randomized Algorithms & Hashing.md",
     "Dsa/college/algo/Lecture 4. Median, Randomized Algorithms & Hashing 1.md",
-    "Dsa/college/ds/Lecture 6. Trees and Binary Trees.md",
-    "Dsa/college/ds/Lecture 5. Queue Data Structures.md",
-    "Machine Learning/projects/project to do ml.md",
-    "Machine Learning/AI quick notes (college)/Module 9 - Dimensionality Reduction & PCA.md",
-    "Machine Learning/AI quick notes (college)/Module 7 - Classification Algorithms.md",
-    "Machine Learning/AI quick notes (college)/Module 8 - kNN & Classification Performance Metrics.md",
-    "Machine Learning/AI quick notes (college)/Module 6- Extension of our linear regression formulation to non-linear problems.md",
-    "Machine Learning/AI quick notes (college)/Module 5 - Machine Learning & Regression Complete Guide.md",
-    "Machine Learning/AI quick notes (college)/Module 12 - Projects.md",
-    "Machine Learning/AI quick notes (college)/Module 11 - Data Visualization Principles.md",
     "Dsa/prime/images/Pasted image 20250102143417.png",
     "Dsa/prime/images/Pasted image 20250102152208.png",
     "Dsa/prime/images/Pasted image 20250102150202.png",
