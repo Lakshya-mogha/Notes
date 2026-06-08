@@ -1,11 +1,7 @@
 [
   "obsidian-git",
-  "obsidian-linter",
-  "soundscapes",
   "obsidian-charts",
-  "awesome-reader",
   "calendar",
-  "obsidian-minimal-settings",
-  "obsidian-tasks-plugin",
-  "pdf-plus"
+  "obsidian-style-settings",
+  "obsidian-minimal-settings"
 ]

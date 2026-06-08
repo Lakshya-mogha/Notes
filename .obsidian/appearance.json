@@ -1,7 +1,12 @@
 {
   "theme": "obsidian",
-  "cssTheme": "Material Gruvbox",
+  "cssTheme": "Things",
   "accentColor": "",
   "interfaceFontFamily": "JetBrainsMono Nerd Font Mono",
-  "textFontFamily": "JetBrainsMono Nerd Font Mono"
+  "textFontFamily": "JetBrainsMono Nerd Font Mono",
+  "enabledCssSnippets": [
+    "Monochrome Void Color Theme Obsidian"
+  ],
+  "showRibbon": true,
+  "showViewHeader": true
 }

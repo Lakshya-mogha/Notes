@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "770fb56b64bdc329",
+        "id": "8ef63a634c7a10c4",
         "type": "tabs",
         "children": [
           {
-            "id": "802605f86924f11a",
+            "id": "d793141215860586",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "college notes/rdbms/Week - 10.md",
+                "file": "Ai/RAG/Rag chatbots.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Week - 10"
+              "title": "Rag chatbots"
             }
           }
         ]
@@ -84,12 +84,28 @@
               "title": "Bookmarks"
             }
           }
+        ],
+        "currentTab": 1
+      },
+      {
+        "id": "6868e2cb91de68cf",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a1ecdf3d4d02e424",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
+          }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 614.5,
-    "collapsed": true
+    "width": 281.5
   },
   "right": {
     "id": "5fb5fa43b9253904",
@@ -151,41 +167,21 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "college notes/rdbms/Week - 10.md",
-                "followCursor": false,
+                "file": "Ai/RAG/Rag chatbots.md",
+                "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Week - 10"
-            }
-          },
-          {
-            "id": "a1ecdf3d4d02e424",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
-            }
-          },
-          {
-            "id": "6ec1837fcf74da66",
-            "type": "leaf",
-            "state": {
-              "type": "calendar",
-              "state": {},
-              "icon": "calendar-with-checkmark",
-              "title": "Calendar"
+              "title": "Outline of Rag chatbots"
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 397.5
+    "width": 407.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -197,57 +193,55 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "obsidian-git:Open Git source control": false,
-      "soundscapes:Soundscapes: My Music": false,
       "pdf-plus:PDF++: Toggle auto-copy": false,
       "pdf-plus:PDF++: Toggle auto-focus": false,
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "802605f86924f11a",
+  "active": "b960e3b85ae83e1c",
   "lastOpenFiles": [
-    "college notes/economitrics/week-9.md",
+    "Untitled.canvas",
+    "Ai/RAG/Rag chatbots.md",
+    "Untitled",
+    "book/IntroductionToTimeSeriesAndForcasting.pdf",
+    "book/Hands-On Machine Learning with Scikit-Learn and PyTorch (for True Epub) (Aurélien Geron) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+    "book/recommender_systems.pdf",
+    "book/hands_on_ml.pdf",
+    "youtube/scripts/Can AI actually 'Think' in Graphs.md",
+    "book/DaVinci_Resolve_20.gYTU2mFO.3.2_Windows.zip.part",
+    "book/DaVinci_Resolve_20.3.2_Windows.zip",
+    "projects/deepfake detector.md",
+    "youtube/scripts",
+    "youtube/prompts/The 'Chaos-Coded' Video Script Prompt.md",
+    "youtube/prompts/The 'Deep-Dive Chaos' Script Prompt (10min+ Version).md",
+    "youtube/prompts",
+    "youtube",
+    "Advanced AI Learning Roadmap for CS Students with ML Knowledge.md",
     "college notes/rdbms/Week - 10.md",
+    "college notes/economitrics/week-9.md",
     "college notes/java/DA202 - WEEKS 7 & 8 CRAM SHEET.md",
     "college notes/Untitled.md",
-    "college notes/java",
     "college notes/optimisation/Week 9 Exam Study Guide- Simplex Method.md",
     "college notes/rdbms/week - 7,8,9.md",
-    "college notes/optimisation",
     "college notes/stats/da103/week 7,8.md",
-    "college notes/rdbms",
     "college notes/economitrics/week 5, 6.md",
-    "college notes/stats/da103",
-    "college notes/stats",
     "project ideas/Web-Based Video Editor.md",
-    "college notes/economitrics",
-    "college notes",
     "Machine Learning/books/notes/AI Engineering - Building Applications with Foundation Models.md",
-    "Machine Learning/books/AI Engineering Building Applications with Foundation Models.pdf",
-    "Machine Learning/books/the hundred page machine learning.pdf",
-    "Machine Learning/books/Stas Bekman - Machine Learning Engineering.pdf",
     "Machine Learning/books/notes/The Hundred Page Machine Learning Book.md",
     "Machine Learning/prsnl studies/Untitled.md",
     "Machine Learning/prsnl studies/2. Classification, Decision Trees and k Nearest Neighbours.md",
     "Machine Learning/1. Intro to Machine learning.md",
     "Machine Learning/2. Machine learning Development life cycle (MLDLC, MLDC).md",
-    "Advanced AI Learning Roadmap for CS Students with ML Knowledge.md",
     "AI Learning Roadmap for Beginners.md",
     "time table.png",
-    "Untitled.md",
     "loan_decision_tree..md",
     "topic3_hse_instruction 1.png",
     "Machine Learning/images/topic3_hse_instruction.png",
     "Machine Learning/images/585257b4a3d001fff62659255bb3f04f9a8be55f4f312a32b0cb0050e51a58b9.png",
     "Dsa/college/algo/Shortest Path Algorithms - Dijkstra's and Bellman-Ford.md",
     "Machine Learning/prsnl studies/1. Introduction.md",
-    "Dsa/college/ds/Sorting Algorithms.md",
-    "Machine Learning/CS-231n (deep learning - computer vision ) stanford/2. Image Classification pipeline.md",
-    "Machine Learning/CS-231n (deep learning - computer vision ) stanford/1. Introduction.md",
-    "Dsa/college/algo/Lecture 4. Median, Randomized Algorithms & Hashing.md",
-    "Dsa/college/algo/Lecture 4. Median, Randomized Algorithms & Hashing 1.md",
     "Dsa/prime/images/Pasted image 20250102143417.png",
     "Dsa/prime/images/Pasted image 20250102152208.png",
-    "Dsa/prime/images/Pasted image 20250102150202.png",
-    "Untitled.canvas"
+    "Dsa/prime/images/Pasted image 20250102150202.png"
   ]
 }
