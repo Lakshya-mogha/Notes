@@ -4,31 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "8ef63a634c7a10c4",
+        "id": "e6690eee48aa60b3",
         "type": "tabs",
         "children": [
           {
-            "id": "d793141215860586",
+            "id": "40cf11fb0b545610",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "bases",
               "state": {
-                "file": "Ai/RAG/Rag chatbots.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
+                "file": "database/books.base",
+                "viewName": "Table"
               },
-              "icon": "lucide-file",
-              "title": "Rag chatbots"
+              "icon": "lucide-table",
+              "title": "books"
             }
           }
         ]
@@ -84,8 +73,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "6868e2cb91de68cf",
@@ -99,6 +87,26 @@
               "state": {},
               "icon": "git-pull-request",
               "title": "Source Control"
+            }
+          },
+          {
+            "id": "5a0312af10c4c6e1",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
+          },
+          {
+            "id": "d793141215860586",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
         ]
@@ -167,13 +175,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Ai/RAG/Rag chatbots.md",
+                "file": "database/books.base",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Rag chatbots"
+              "title": "Outline of books"
             }
           }
         ],
@@ -181,13 +189,14 @@
       }
     ],
     "direction": "horizontal",
-    "width": 407.5
+    "width": 407.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
+      "graph:Open graph view": false,
       "bases:Create new base": false,
       "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
@@ -195,51 +204,53 @@
       "obsidian-git:Open Git source control": false,
       "pdf-plus:PDF++: Toggle auto-copy": false,
       "pdf-plus:PDF++: Toggle auto-focus": false,
-      "pdf-plus:PDF++: Toggle auto-paste": false
+      "pdf-plus:PDF++: Toggle auto-paste": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "b960e3b85ae83e1c",
+  "active": "a1ecdf3d4d02e424",
   "lastOpenFiles": [
-    "Untitled.canvas",
-    "Ai/RAG/Rag chatbots.md",
-    "Untitled",
-    "book/IntroductionToTimeSeriesAndForcasting.pdf",
-    "book/Hands-On Machine Learning with Scikit-Learn and PyTorch (for True Epub) (Aurélien Geron) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
-    "book/recommender_systems.pdf",
-    "book/hands_on_ml.pdf",
-    "youtube/scripts/Can AI actually 'Think' in Graphs.md",
-    "book/DaVinci_Resolve_20.gYTU2mFO.3.2_Windows.zip.part",
-    "book/DaVinci_Resolve_20.3.2_Windows.zip",
-    "projects/deepfake detector.md",
-    "youtube/scripts",
-    "youtube/prompts/The 'Chaos-Coded' Video Script Prompt.md",
-    "youtube/prompts/The 'Deep-Dive Chaos' Script Prompt (10min+ Version).md",
-    "youtube/prompts",
-    "youtube",
-    "Advanced AI Learning Roadmap for CS Students with ML Knowledge.md",
-    "college notes/rdbms/Week - 10.md",
-    "college notes/economitrics/week-9.md",
-    "college notes/java/DA202 - WEEKS 7 & 8 CRAM SHEET.md",
-    "college notes/Untitled.md",
-    "college notes/optimisation/Week 9 Exam Study Guide- Simplex Method.md",
-    "college notes/rdbms/week - 7,8,9.md",
-    "college notes/stats/da103/week 7,8.md",
-    "college notes/economitrics/week 5, 6.md",
-    "project ideas/Web-Based Video Editor.md",
-    "Machine Learning/books/notes/AI Engineering - Building Applications with Foundation Models.md",
-    "Machine Learning/books/notes/The Hundred Page Machine Learning Book.md",
-    "Machine Learning/prsnl studies/Untitled.md",
-    "Machine Learning/prsnl studies/2. Classification, Decision Trees and k Nearest Neighbours.md",
-    "Machine Learning/1. Intro to Machine learning.md",
-    "Machine Learning/2. Machine learning Development life cycle (MLDLC, MLDC).md",
-    "AI Learning Roadmap for Beginners.md",
     "time table.png",
-    "loan_decision_tree..md",
+    "Excalidraw/stock exchange platform.md",
+    "Excalidraw/Drawing 2025-01-02 14.29.57.excalidraw.md",
+    "Excalidraw/Drawing 2024-11-23 05.06.18.excalidraw.md",
+    "Excalidraw/Drawing 2024-11-23 05.05.19.excalidraw.md",
+    "projects/Untitled.md",
+    "templates/daily.md",
+    "templates",
+    "notes/daily notes",
+    "database/books.base",
+    "database",
+    "education",
+    "projects/deepfake detector.md",
+    "Excalidraw/C lang/syntax.md",
+    "education/Machine Learning/books/Stas Bekman - Machine Learning Engineering.pdf",
+    "notes",
+    "2026-06-08.md",
+    "education/books/IntroductionToTimeSeriesAndForcasting.pdf",
+    "Ai/RAG/Rag chatbots.md",
+    "Untitled.base",
+    "Untitled.canvas",
+    "education/books/Hands-On Machine Learning with Scikit-Learn and PyTorch (for True Epub) (Aurélien Geron) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+    "projects/youtube/scripts/Can AI actually 'Think' in Graphs.md",
+    "projects/youtube/prompts/The 'Chaos-Coded' Video Script Prompt.md",
+    "projects/youtube/prompts/The 'Deep-Dive Chaos' Script Prompt (10min+ Version).md",
+    "Advanced AI Learning Roadmap for CS Students with ML Knowledge.md",
+    "education/college notes/rdbms/Week - 10.md",
+    "education/college notes/economitrics/week-9.md",
+    "education/college notes/java/DA202 - WEEKS 7 & 8 CRAM SHEET.md",
+    "college notes/Untitled.md",
+    "education/college notes/optimisation/Week 9 Exam Study Guide- Simplex Method.md",
+    "education/college notes/rdbms/week - 7,8,9.md",
+    "education/college notes/stats/da103/week 7,8.md",
+    "education/college notes/economitrics/week 5, 6.md",
+    "project ideas/Web-Based Video Editor.md",
+    "education/Machine Learning/books/notes/AI Engineering - Building Applications with Foundation Models.md",
+    "education/Machine Learning/books/notes/The Hundred Page Machine Learning Book.md",
     "topic3_hse_instruction 1.png",
-    "Machine Learning/images/topic3_hse_instruction.png",
-    "Machine Learning/images/585257b4a3d001fff62659255bb3f04f9a8be55f4f312a32b0cb0050e51a58b9.png",
-    "Dsa/college/algo/Shortest Path Algorithms - Dijkstra's and Bellman-Ford.md",
-    "Machine Learning/prsnl studies/1. Introduction.md",
+    "education/Machine Learning/images/topic3_hse_instruction.png",
+    "education/Machine Learning/images/585257b4a3d001fff62659255bb3f04f9a8be55f4f312a32b0cb0050e51a58b9.png",
     "Dsa/prime/images/Pasted image 20250102143417.png",
     "Dsa/prime/images/Pasted image 20250102152208.png",
     "Dsa/prime/images/Pasted image 20250102150202.png"
