@@ -4,20 +4,31 @@
     "type": "split",
     "children": [
       {
-        "id": "e6690eee48aa60b3",
+        "id": "ba7aff41e2b95157",
         "type": "tabs",
         "children": [
           {
-            "id": "40cf11fb0b545610",
+            "id": "0307662710ab8714",
             "type": "leaf",
             "state": {
-              "type": "bases",
+              "type": "markdown",
               "state": {
-                "file": "database/books.base",
-                "viewName": "Table"
+                "file": "projects/real time video upscalling/notes.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
-              "icon": "lucide-table",
-              "title": "books"
+              "icon": "lucide-file",
+              "title": "notes"
             }
           }
         ]
@@ -32,6 +43,7 @@
       {
         "id": "ea9b8fd5e769fb37",
         "type": "tabs",
+        "dimension": 50,
         "children": [
           {
             "id": "0a61e3bf9601e3fc",
@@ -78,6 +90,7 @@
       {
         "id": "6868e2cb91de68cf",
         "type": "tabs",
+        "dimension": 50,
         "children": [
           {
             "id": "a1ecdf3d4d02e424",
@@ -113,7 +126,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 281.5
+    "width": 373.5
   },
   "right": {
     "id": "5fb5fa43b9253904",
@@ -175,13 +188,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "database/books.base",
+                "file": "education/books/recommender_systems.pdf",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of books"
+              "title": "Outline of recommender_systems"
             }
           }
         ],
@@ -202,15 +215,32 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "obsidian-git:Open Git source control": false,
-      "pdf-plus:PDF++: Toggle auto-copy": false,
-      "pdf-plus:PDF++: Toggle auto-focus": false,
-      "pdf-plus:PDF++: Toggle auto-paste": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false,
-      "obsidian-excalidraw-plugin:New drawing": false
+      "obsidian-media-db-plugin:Add new Media DB entry": false,
+      "obsidian-kanban:Create new board": false
     }
   },
   "active": "a1ecdf3d4d02e424",
   "lastOpenFiles": [
+    "projects/real time video upscalling/notes.md",
+    "projects/real time video upscalling/Tasks.md",
+    "projects/real time video upscalling/tasks.md",
+    "projects/real time video upscalling/drafts",
+    "projects/real time video upscalling/logs",
+    "projects/real time video upscalling/math and specs",
+    "projects/real time video upscalling/reseach papers",
+    "notes/daily notes/2026-06-16.md",
+    "notes/daily notes/Untitled.md",
+    "database/books.base",
+    "projects/real time video upscalling",
+    "Untitled.base",
+    "education/books/Get Sht Done With Pytorch - Solve Real-World Machine Learning Problems (Venelin Valkov) (z-library.sk, 1lib.sk, z-lib.sk).epub",
+    "education/books/Stas Bekman - Machine Learning Engineering.pdf",
+    "database/Media DB/books/Recommender Systems (2016).md",
+    "Media DB/books",
+    "database/Media DB/books/Introduction To Time Series And Forecasting (2013).md",
+    "database/Media DB/books/Hands-On Machine Learning with Scikit-Learn and PyTorch (2025).md",
+    "education/books/Untitled.md",
+    "weave/epub-bookmarks/data_Get SH_T Done with PyTorch.md",
     "time table.png",
     "Excalidraw/stock exchange platform.md",
     "Excalidraw/Drawing 2025-01-02 14.29.57.excalidraw.md",
@@ -218,36 +248,17 @@
     "Excalidraw/Drawing 2024-11-23 05.05.19.excalidraw.md",
     "projects/Untitled.md",
     "templates/daily.md",
-    "templates",
-    "notes/daily notes",
-    "database/books.base",
-    "database",
-    "education",
     "projects/deepfake detector.md",
     "Excalidraw/C lang/syntax.md",
-    "education/Machine Learning/books/Stas Bekman - Machine Learning Engineering.pdf",
-    "notes",
     "2026-06-08.md",
-    "education/books/IntroductionToTimeSeriesAndForcasting.pdf",
     "Ai/RAG/Rag chatbots.md",
-    "Untitled.base",
     "Untitled.canvas",
-    "education/books/Hands-On Machine Learning with Scikit-Learn and PyTorch (for True Epub) (Aurélien Geron) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
     "projects/youtube/scripts/Can AI actually 'Think' in Graphs.md",
     "projects/youtube/prompts/The 'Chaos-Coded' Video Script Prompt.md",
     "projects/youtube/prompts/The 'Deep-Dive Chaos' Script Prompt (10min+ Version).md",
     "Advanced AI Learning Roadmap for CS Students with ML Knowledge.md",
     "education/college notes/rdbms/Week - 10.md",
     "education/college notes/economitrics/week-9.md",
-    "education/college notes/java/DA202 - WEEKS 7 & 8 CRAM SHEET.md",
-    "college notes/Untitled.md",
-    "education/college notes/optimisation/Week 9 Exam Study Guide- Simplex Method.md",
-    "education/college notes/rdbms/week - 7,8,9.md",
-    "education/college notes/stats/da103/week 7,8.md",
-    "education/college notes/economitrics/week 5, 6.md",
-    "project ideas/Web-Based Video Editor.md",
-    "education/Machine Learning/books/notes/AI Engineering - Building Applications with Foundation Models.md",
-    "education/Machine Learning/books/notes/The Hundred Page Machine Learning Book.md",
     "topic3_hse_instruction 1.png",
     "education/Machine Learning/images/topic3_hse_instruction.png",
     "education/Machine Learning/images/585257b4a3d001fff62659255bb3f04f9a8be55f4f312a32b0cb0050e51a58b9.png",

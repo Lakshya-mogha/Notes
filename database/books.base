@@ -1,9 +1,28 @@
+formulas:
+  Untitled: file.asfile()
+properties:
+  formula.Untitled:
+    displayName: file image
 views:
+  - type: cards
+    name: cards
+    filters:
+      or:
+        - file.folder == "education/books"
+    order:
+      - file.basename
+      - author
+    imageFit: contain
+    cardSize: 190
+    image: note.image
   - type: table
     name: Table
     filters:
       and:
         - file.inFolder("education/books")
-    sort:
-      - property: file.name
-        direction: ASC
+    order:
+      - file.basename
+      - file.ext
+    sort: []
+    columnSize:
+      file.basename: 539

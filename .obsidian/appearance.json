@@ -7,6 +7,6 @@
   "enabledCssSnippets": [
     "Monochrome Void Color Theme Obsidian"
   ],
-  "showRibbon": false,
+  "showRibbon": true,
   "showViewHeader": true
 }
