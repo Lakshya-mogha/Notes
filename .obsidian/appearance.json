@@ -5,7 +5,7 @@
   "interfaceFontFamily": "JetBrainsMono Nerd Font Mono",
   "textFontFamily": "JetBrainsMono Nerd Font Mono",
   "enabledCssSnippets": [
-    "Monochrome Void Color Theme Obsidian"
+    "oxocarbon"
   ],
   "showRibbon": true,
   "showViewHeader": true

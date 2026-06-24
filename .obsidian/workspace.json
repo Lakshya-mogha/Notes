@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "projects/real time video upscalling/notes.md",
+                "file": "education/college notes/optimisation/Week 9 Exam Study Guide- Simplex Method.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "notes"
+              "title": "Week 9 Exam Study Guide- Simplex Method"
             }
           }
         ]
@@ -108,8 +108,8 @@
             "state": {
               "type": "calendar",
               "state": {},
-              "icon": "calendar-with-checkmark",
-              "title": "Calendar"
+              "icon": "lucide-ghost",
+              "title": "calendar"
             }
           },
           {
@@ -215,13 +215,18 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "obsidian-git:Open Git source control": false,
-      "obsidian-media-db-plugin:Add new Media DB entry": false,
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "a1ecdf3d4d02e424",
+  "active": "0307662710ab8714",
   "lastOpenFiles": [
     "projects/real time video upscalling/notes.md",
+    "education/books/LLM Engineer’s Handbook (Paul Iusztin ,Maxime Labonne).epub",
+    "education/books/Get Sht Done With Pytorch - Solve Real-World Machine Learning Problems (Venelin Valkov) (z-library.sk, 1lib.sk, z-lib.sk).epub",
+    "education/books/Hands-On Machine Learning with Scikit-Learn and PyTorch (for True Epub) (Aurélien Geron) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+    "education/books/IntroductionToTimeSeriesAndForcasting.pdf",
+    "education/books/recommender_systems.pdf",
+    "database/books.base",
     "projects/real time video upscalling/Tasks.md",
     "projects/real time video upscalling/tasks.md",
     "projects/real time video upscalling/drafts",
@@ -230,13 +235,7 @@
     "projects/real time video upscalling/reseach papers",
     "notes/daily notes/2026-06-16.md",
     "notes/daily notes/Untitled.md",
-    "database/books.base",
-    "projects/real time video upscalling",
-    "Untitled.base",
-    "education/books/Get Sht Done With Pytorch - Solve Real-World Machine Learning Problems (Venelin Valkov) (z-library.sk, 1lib.sk, z-lib.sk).epub",
-    "education/books/Stas Bekman - Machine Learning Engineering.pdf",
     "database/Media DB/books/Recommender Systems (2016).md",
-    "Media DB/books",
     "database/Media DB/books/Introduction To Time Series And Forecasting (2013).md",
     "database/Media DB/books/Hands-On Machine Learning with Scikit-Learn and PyTorch (2025).md",
     "education/books/Untitled.md",
@@ -258,7 +257,6 @@
     "projects/youtube/prompts/The 'Deep-Dive Chaos' Script Prompt (10min+ Version).md",
     "Advanced AI Learning Roadmap for CS Students with ML Knowledge.md",
     "education/college notes/rdbms/Week - 10.md",
-    "education/college notes/economitrics/week-9.md",
     "topic3_hse_instruction 1.png",
     "education/Machine Learning/images/topic3_hse_instruction.png",
     "education/Machine Learning/images/585257b4a3d001fff62659255bb3f04f9a8be55f4f312a32b0cb0050e51a58b9.png",
