@@ -7,6 +7,6 @@
   "enabledCssSnippets": [
     "oxocarbon"
   ],
-  "showRibbon": true,
+  "showRibbon": false,
   "showViewHeader": true
 }

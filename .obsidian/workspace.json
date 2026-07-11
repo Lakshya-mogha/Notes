@@ -13,13 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-<<<<<<< Updated upstream
-                "file": "education/college notes/optimisation/Week 9 Exam Study Guide- Simplex Method.md",
+                "file": "notes/daily notes/2026-07-11.md",
                 "mode": "source",
-=======
-                "file": "projects/real time video upscalling/reseach papers/todo.md",
-                "mode": "preview",
->>>>>>> Stashed changes
                 "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -33,11 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-<<<<<<< Updated upstream
-              "title": "Week 9 Exam Study Guide- Simplex Method"
-=======
-              "title": "todo"
->>>>>>> Stashed changes
+              "title": "2026-07-11"
             }
           }
         ]
@@ -117,8 +108,8 @@
             "state": {
               "type": "calendar",
               "state": {},
-              "icon": "lucide-ghost",
-              "title": "calendar"
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
             }
           },
           {
@@ -135,7 +126,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 347.5
+    "width": 373.5
   },
   "right": {
     "id": "5fb5fa43b9253904",
@@ -227,26 +218,28 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "0307662710ab8714",
+  "active": "a1ecdf3d4d02e424",
   "lastOpenFiles": [
+    "notes/daily notes/2026-07-09.md",
+    "notes/daily notes/2026-07-11.md",
+    "projects/how to start/project milestones.md",
+    "templates/daily.md",
+    "projects/how to start",
+    "notes/daily notes/2026-07-07.md",
+    "projects/real time video upscalling/reseach papers/todo.md",
     "projects/real time video upscalling/reseach papers/super resolution for single image.pdf",
+    "projects/real time video upscalling/reseach papers",
+    "education/college notes/optimisation/Week 9 Exam Study Guide- Simplex Method.md",
     "projects/real time video upscalling/notes.md",
-<<<<<<< Updated upstream
     "education/books/LLM Engineer’s Handbook (Paul Iusztin ,Maxime Labonne).epub",
     "education/books/Get Sht Done With Pytorch - Solve Real-World Machine Learning Problems (Venelin Valkov) (z-library.sk, 1lib.sk, z-lib.sk).epub",
     "education/books/Hands-On Machine Learning with Scikit-Learn and PyTorch (for True Epub) (Aurélien Geron) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
     "education/books/IntroductionToTimeSeriesAndForcasting.pdf",
     "education/books/recommender_systems.pdf",
     "database/books.base",
-=======
-    "projects/real time video upscalling/reseach papers/todo.md",
->>>>>>> Stashed changes
     "projects/real time video upscalling/Tasks.md",
     "projects/real time video upscalling/tasks.md",
     "projects/real time video upscalling/drafts",
-    "projects/real time video upscalling/logs",
-    "projects/real time video upscalling/math and specs",
-    "projects/real time video upscalling/reseach papers",
     "notes/daily notes/2026-06-16.md",
     "notes/daily notes/Untitled.md",
     "database/Media DB/books/Recommender Systems (2016).md",
@@ -260,20 +253,11 @@
     "Excalidraw/Drawing 2024-11-23 05.06.18.excalidraw.md",
     "Excalidraw/Drawing 2024-11-23 05.05.19.excalidraw.md",
     "projects/Untitled.md",
-    "templates/daily.md",
     "projects/deepfake detector.md",
     "Excalidraw/C lang/syntax.md",
     "2026-06-08.md",
     "Ai/RAG/Rag chatbots.md",
     "Untitled.canvas",
-    "projects/youtube/scripts/Can AI actually 'Think' in Graphs.md",
-    "projects/youtube/prompts/The 'Chaos-Coded' Video Script Prompt.md",
-    "projects/youtube/prompts/The 'Deep-Dive Chaos' Script Prompt (10min+ Version).md",
-    "Advanced AI Learning Roadmap for CS Students with ML Knowledge.md",
-<<<<<<< Updated upstream
-    "education/college notes/rdbms/Week - 10.md",
-=======
->>>>>>> Stashed changes
     "topic3_hse_instruction 1.png",
     "education/Machine Learning/images/topic3_hse_instruction.png",
     "education/Machine Learning/images/585257b4a3d001fff62659255bb3f04f9a8be55f4f312a32b0cb0050e51a58b9.png",
