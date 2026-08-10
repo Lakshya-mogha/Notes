@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "projects/how to start/project milestones.md",
+                "file": "projects/automations.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "project milestones"
+              "title": "automations"
             }
           }
         ]
@@ -52,7 +52,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -126,7 +128,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 373.5
+    "width": 373.5,
+    "collapsed": true
   },
   "right": {
     "id": "5fb5fa43b9253904",
@@ -218,9 +221,10 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "a1ecdf3d4d02e424",
+  "active": "8b243667c7947767",
   "lastOpenFiles": [
     "projects/how to start/project milestones.md",
+    "projects/automations.md",
     "education/Machine Learning/4. Linear regression.md",
     "notes/daily notes/2026-07-14.md",
     "templates/daily.md",
@@ -256,7 +260,6 @@
     "Excalidraw/Drawing 2025-01-02 14.29.57.excalidraw.md",
     "Excalidraw/Drawing 2024-11-23 05.06.18.excalidraw.md",
     "Excalidraw/Drawing 2024-11-23 05.05.19.excalidraw.md",
-    "projects/Untitled.md",
     "Untitled.canvas",
     "topic3_hse_instruction 1.png",
     "education/Machine Learning/images/topic3_hse_instruction.png",
