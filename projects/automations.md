@@ -1,9 +1,11 @@
 
 ### How Automation Distributors Actually Source Products
 ##### Model A: The Pure Stockist (Inventory-First)
+
 **How they work**: Customer asks → check stock → if available, deliver today or tomorrow. The quote-to-cash cycle is measured in hours, not days.
 
 ##### Model B: The Pure Trader (Pass-Through / Back-to-Back)
+
 These distributors hold **zero inventory**. When a customer places an order, they:
 
 1. Source from an **authorized distributor** or **regional wholesaler** who does stock
@@ -11,8 +13,8 @@ These distributors hold **zero inventory**. When a customer places an order, the
 3. Ship directly or take delivery and forward
 
 ##### Model C: The Hybrid (Most Common)
-This is where 70%+ of mid-sized automation distributors sit. They stock **fast-movers** (maybe 200-500 SKUs) and source everything else from **multiple upstream channels**
 
+This is where 70%+ of mid-sized automation distributors sit. They stock **fast-movers** (maybe 200-500 SKUs) and source everything else from **multiple upstream channels**
 
 ### What tools do they use? 
 
@@ -25,7 +27,9 @@ This is where 70%+ of mid-sized automation distributors sit. They stock **fast-m
 | **Email**                 | Formal POs from larger customers, supplier communications              |
 
 There can be other CRMs too. 
+
 For the personalised CRM, most people use Whatsapp, Excel, and Tally as their CRM, and for the others left, they use generalised horizontal CRM. There is a really low amount of people that use personalised CRMs or odoo.
+
 ### Questions first?
 
 1. Do we need a human in the loop?

@@ -13,8 +13,32 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "projects/automations.md",
+                "file": "projects/unified market place listing/Untitled.md",
                 "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": true,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Untitled"
+            }
+          },
+          {
+            "id": "a6855d5d2cc659ec",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "projects/unified market place listing/AI Listing Agent — High-Level Design.md",
+                "mode": "preview",
                 "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -28,10 +52,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "automations"
+              "title": "AI Listing Agent — High-Level Design"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -128,8 +153,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 373.5,
-    "collapsed": true
+    "width": 373.5
   },
   "right": {
     "id": "5fb5fa43b9253904",
@@ -191,13 +215,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "education/books/recommender_systems.pdf",
+                "file": "projects/unified market place listing/AI Listing Agent — High-Level Design.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of recommender_systems"
+              "title": "Outline"
             }
           }
         ],
@@ -221,10 +245,13 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "8b243667c7947767",
+  "active": "a6855d5d2cc659ec",
   "lastOpenFiles": [
-    "projects/how to start/project milestones.md",
+    "projects/unified market place listing/Untitled.md",
+    "projects/unified market place listing/AI Listing Agent — High-Level Design.md",
     "projects/automations.md",
+    "projects/unified market place listing",
+    "projects/how to start/project milestones.md",
     "education/Machine Learning/4. Linear regression.md",
     "notes/daily notes/2026-07-14.md",
     "templates/daily.md",
@@ -243,7 +270,6 @@
     "projects/how to start",
     "notes/daily notes/2026-07-07.md",
     "projects/real time video upscalling/reseach papers/todo.md",
-    "projects/real time video upscalling/reseach papers/super resolution for single image.pdf",
     "education/college notes/optimisation/Week 9 Exam Study Guide- Simplex Method.md",
     "projects/real time video upscalling/notes.md",
     "projects/real time video upscalling/Tasks.md",
@@ -258,8 +284,6 @@
     "time table.png",
     "Excalidraw/stock exchange platform.md",
     "Excalidraw/Drawing 2025-01-02 14.29.57.excalidraw.md",
-    "Excalidraw/Drawing 2024-11-23 05.06.18.excalidraw.md",
-    "Excalidraw/Drawing 2024-11-23 05.05.19.excalidraw.md",
     "Untitled.canvas",
     "topic3_hse_instruction 1.png",
     "education/Machine Learning/images/topic3_hse_instruction.png",
