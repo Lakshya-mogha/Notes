@@ -7,5 +7,6 @@
   "obsidian-icon-folder",
   "obsidian-linter",
   "obsidian-kanban",
-  "obsidian-epub-plugin"
+  "obsidian-epub-plugin",
+  "obsidian-local-rest-api"
 ]

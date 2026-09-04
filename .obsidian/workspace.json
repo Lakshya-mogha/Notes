@@ -4,41 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "95d0ba2d65ba7e1f",
+        "id": "511fd89565fd7e11",
         "type": "tabs",
         "children": [
           {
-            "id": "8b243667c7947767",
+            "id": "446f7fc00d6cf21e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "projects/unified market place listing/Untitled.md",
+                "file": "projects/unified market place listing/mvp.md",
                 "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": true,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Untitled"
-            }
-          },
-          {
-            "id": "a6855d5d2cc659ec",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "projects/unified market place listing/AI Listing Agent — High-Level Design.md",
-                "mode": "preview",
                 "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -52,11 +28,10 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "AI Listing Agent — High-Level Design"
+              "title": "mvp"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -153,7 +128,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 373.5
+    "width": 302.5
   },
   "right": {
     "id": "5fb5fa43b9253904",
@@ -245,10 +220,13 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "a6855d5d2cc659ec",
+  "active": "446f7fc00d6cf21e",
   "lastOpenFiles": [
-    "projects/unified market place listing/Untitled.md",
+    "projects/unified market place listing/mvp.md",
+    "Pasted image 20260903182022.png",
+    "projects/unified market place listing/AI Listing Agent — Pricing & MCP Planning.md",
     "projects/unified market place listing/AI Listing Agent — High-Level Design.md",
+    "Untitled.md",
     "projects/automations.md",
     "projects/unified market place listing",
     "projects/how to start/project milestones.md",
@@ -280,10 +258,7 @@
     "database/Media DB/books/Introduction To Time Series And Forecasting (2013).md",
     "database/Media DB/books/Hands-On Machine Learning with Scikit-Learn and PyTorch (2025).md",
     "education/books/Untitled.md",
-    "weave/epub-bookmarks/data_Get SH_T Done with PyTorch.md",
     "time table.png",
-    "Excalidraw/stock exchange platform.md",
-    "Excalidraw/Drawing 2025-01-02 14.29.57.excalidraw.md",
     "Untitled.canvas",
     "topic3_hse_instruction 1.png",
     "education/Machine Learning/images/topic3_hse_instruction.png",

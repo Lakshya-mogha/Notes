@@ -470,3 +470,74 @@ Agent generates text conditioned on voice + marketplace rules
 3. If task is text-only and budget-constrained → route to DeepSeek-V3 via the same abstraction.
 4. Embeddings always use the embedding model; never run the generation model for retrieval.
 5. Log `model_used`, tokens, and cost on every AgentRun — this is your cost observability.
+
+---
+
+## 14. Competitive Landscape: Amazon & Flipkart Seller Agents
+
+### What exists today
+
+Neither Amazon nor Flipkart sells a single turnkey "AI Listing Agent." Instead, both marketplaces expose APIs (Amazon SP-API, Flipkart Seller API) that third parties build automation tools on top of. The "agents" sellers actually use are these third-party tools.
+
+| Player | Platform | What it does | Weakness |
+|---|---|---|---|
+| Helium 10 | Amazon | Keyword research, listing optimization, PPC, repricing | Amazon-only, ~$100+/mo, rule-based |
+| Jungle Scout | Amazon | Product research, keyword, sales estimates | Amazon-only, no generative content |
+| Sellics / Perpetua | Amazon | PPC automation, profit analytics | Enterprise-priced |
+| GoFynd | Flipkart | Catalog, pricing, order mgmt for Flipkart sellers | Flipkart-only, rule-based |
+| Unicommerce | Multi | Order/inventory sync across marketplaces | Logistics-focus, thin AI layer |
+| EasyEcom | Multi | Inventory, order, returns sync | Operations-focus, not listing intelligence |
+
+### What these agents actually do
+
+1. **Listing optimization** — regenerate titles/descriptions/bullets/keywords from templates or basic keyword extraction.
+2. **Dynamic pricing** — repricing rules ("if competitor drops 5%, drop 3%") against scraped competitor data.
+3. **Inventory management** — stock tracking, restock alerts, FBA/Flipkart Fulfillment sync.
+4. **Advertising automation** — Sponsored Products/Listings bid & budget adjustments.
+5. **Order processing** — labels, tracking, customer notifications.
+6. **Review/feedback management** — monitor reviews, flag negatives, request reviews.
+
+### How they work
+
+- **Data sources:** marketplace APIs (SP-API, Flipkart Seller API), web scraping of competitor listings, price-history feeds (Keepa, CamelCamelCamel).
+- **Automation:** mostly **rule-based** (static thresholds/templates); some basic ML for keyword extraction and sentiment; **very little generative AI** for actual content creation.
+- **Scope:** almost all are **single-platform** (Amazon XOR Flipkart). Multi-marketplace tools (Unicommerce, EasyEcom) exist but focus on order/inventory ops, not listing intelligence.
+
+### Their structural weaknesses
+
+| Weakness | Our wedge |
+|---|---|
+| Single-platform lock-in | One interface across Amazon + Flipkart (MVP) and beyond |
+| Rule-based, templated content | Generative AI for dynamic titles, descriptions, attributes, images |
+| No localization (regional language, festival nuance) | Indian-language + culture-aware content (indic models) |
+| Enterprise pricing ($100+/mo) | Freemium / pay-per-listing for small D2C brands |
+| Fragmented: sellers run 3–4 tools | Unified dashboard: listing + pricing + ads + review in one place |
+| Reactive (repricing responds to drops) | Predictive: demand/styling forecasts, proactive restock and price moves |
+
+### Where we win (the wedge)
+
+1. **Multi-platform by construction** — our adapter pattern (Section 6) treats Amazon and Flipkart as first-class peers, not afterthoughts.
+2. **Generative, not templated** — AI proposes content (Section 4), then deterministic rules validate; competitors ship static templates.
+3. **Localization** — Indian language and festival-aware content is a gap none of the incumbents fill well.
+4. **Affordable for D2C** — freemium/pay-per-listing undercuts the $100+/mo enterprise tools.
+5. **All-in-one** — listing + pricing + ads + review reduces tool sprawl.
+6. **Predictive layer** — demand/restock forecasting on top of the feedback loop (Core Design Principle).
+
+### What to watch
+
+- **Amazon SP-API roadmap** — if Amazon bakes more AI into its own API surface, third-party listing tools (and us) get squeezed.
+- **Flipkart marketplace growth** — more sellers → more third-party tools entering the space.
+- **Enterprise repricing/PPC tools** may drop price into the SMB tier to compete.
+
+### Sources / links
+
+- Amazon SP-API docs: https://developer-docs.amazon.com/sp-api/docs
+- Amazon Seller Central: https://sellercentral.amazon.com/
+- Flipkart Seller Hub: https://seller.flipkart.com/
+- Flipkart Seller API: https://seller.flipkart.com/api-docs/
+- Helium 10: https://www.helium10.com/
+- Jungle Scout: https://www.junglescout.com/
+- Sellics: https://sellics.com/
+- GoFynd: https://gofynd.com/
+- Unicommerce: https://www.unicommerce.com/
+- EasyEcom: https://www.easyecom.io/
