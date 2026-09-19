@@ -1,0 +1,12 @@
+| Module                   | Responsibility                                                                           | Input                              | Output                         | owners        |
+| :----------------------- | :--------------------------------------------------------------------------------------- | :--------------------------------- | :----------------------------- | ------------- |
+| **Auth Module**          | Handles OAuth flows for Amazon & Flipkart; manages token encryption/refresh.             | User Credentials / OAuth Codes     | Encrypted Tokens, User Session | arpit         |
+| **Data Bridge Module**   | Parses CSVs/Raw Text and maps them to the Canonical JSON Schema.                         | Raw CSV / Text                     | Canonical JSON Schema          |               |
+| **AI Generation Module** | Uses LangGraph to generate content (Title, Bullets, Description) based on Brand Context. | Canonical JSON + Brand Context     | Drafted Listing Content        | arpit,lakshya |
+| **Validation Module**    | Deterministic rules check against Marketplace limits & banned terms.                     | Drafted Listing Content            | ErrorReport (Pass/Fail)        | arpit,lakshya |
+| **Execution Module**     | Maps Canonical Schema to Marketplace-specific payloads and executes API calls.           | Canonical JSON + Validated Content | Publication Status / Result    |               |
+| **Web UI Module**        | Next.js + Tailwind frontend; Dashboard, Onboarding, and Agent Workspace.                 | User Interaction                   | UI State / API Calls           |               |
+| **Auth & Identity**      | Invite-only logic, JWT management, session handling, and account creation.               | Invite Token / Credentials         | User Session                   | lakshya       |
+| **Data & Persistence**   | PostgreSQL schema management, pgvector for RAG, and S3 bucket config.                    | Raw Data / Files                   | Persistence / Retrieval        | snahanku      |
+| **Task Orchestration**   | Redis + ARQ for backgrounding CSV processing and LangGraph execution.                    | Task Requests                      | Job Status / Completion        | arpit,lakshya |
+| **media management**     | media management and s3 api                                                              | images,videos,csv's                |                                |               |

@@ -10,12 +10,61 @@ We’re building an **AI Listing Agent** to solve this. It’s a Co-Pilot: the A
 
 We aren't trying to build everything at once. We’re going to roll this out in three clear steps:
 
-1.  **The Data Bridge (The CSV Tool):** First, we'll build a tool that takes messy raw data and turns it into perfectly formatted listing files. This gives the user immediate value without needing any API approvals.
+1.  **The CSV Tool:** First, we'll build a tool that takes messy raw data and turns it into perfectly formatted listing files. This gives the user immediate value without needing any API approvals.
 2.  **The Connectors:** In parallel, we'll build the actual adapters for the Amazon and Flipkart APIs.
 3.  **The Auto-Listing:** Once we get those marketplace approvals, we'll flip the switch to automated listing. At that point, we'll provide the auto-publish and the CSVs simultaneously.
 
 This way, we can start helping people today with the "hard part" (the data) while we work on the "hard plumbing" (the APIs) in the background.
 
+## The Technical Bridge
+
+- **Frontend:** Next.js + Tailwind.
+- **Backend:** FastAPI (Python) handling the AI orchestration (LangGraph), Rule Engine, and Database (PostgreSQL + pgvector).
+- **Storage:** S3 for images and CSV artifacts.
+- **Queue:** Redis + ARQ for handling bulk CSV processing.
+
+---
+
+## Technical Specifications
+
+### 1. Marketplace Connectors (The Plumbing)
+*   **Amazon SP-API:** 
+    *   **Auth:** Website Authorization Workflow (OAuth 2.0).
+    *   **Key Endpoints:** `listings_items` (for creating/updating listings).
+    *   **Bulk Limits:** Must implement request batching and respect per-second rate limits.
+*   **Flipkart Seller API:**
+    *   **Auth:** v3.0 API Key + Signature authentication.
+    *   **Key Endpoints:** Product creation and category mapping endpoints.
+    *   **Requirement:** Specific handling for "Brand" and "Category" mapping logic to match Flipkart's internal taxonomy.
+
+### 2. Brand Voice & AI Logic (The Brain)
+*   **Context Injection:** Use a RAG-lite approach where Brand Voice chunks (Glossary, Tone, Banned Terms) are injected into the LangGraph prompt as "System Context."
+*   **Data Bridging Logic:** 
+    *   **Input:** Messy text (e.g., "blue cotton shirt").
+    *   **Processing:** Entity extraction (Color=Blue, Material=Cotton, Category=Shirt).
+    *   **Output:** Canonical JSON Schema (Internal standard format).
+
+### 3. AI Orchestration Flow (LangGraph)
+
+We will use a multi-agent graph to ensure high-fidelity output and iterative correction:
+
+1. **Data Structuring:** Raw data is parsed and mapped into a Canonical JSON Schema.
+
+    2. **Parallel Generation Agents:**
+
+        * **Catalog Agent:** Drafts the primary listing content (Title, Bullets, Description).
+
+        * **Keyword Research Agent:** Identifies high-intent search terms and category-specific keywords.
+
+        - [-] **A+ Content Agent:** Generates rich media specifications and layout plans for high-visibility listings.
+
+    3. **Validation Gate (The Arbiter):** The output from all agents is passed through the deterministic Rules Engine (Marketplace limits, Banned terms, etc.).
+
+    4. **Correction Loop:** If the Validation Gate returns errors, the graph routes the specific failing agent (Catalog, Keyword, or A+ Content) back to re-generate only the affected fields, using the error report as feedback.
+
+    5. **Final Output:** Validated content is presented for Human Approval.
+
+---
 ## Onboarding & Auth Flow
 
 ### 1. Access Control (Invite-Only)
@@ -63,65 +112,19 @@ Once the profile is set, the user is prompted to connect their accounts:
 - **Flipkart:** OAuth flow to authorize the Seller API.
 - *Note: If an account isn't connected yet, they can still use the CSV tool.*
 
-## The Technical Bridge
-
-- **Frontend:** Next.js + Tailwind.
-- **Backend:** FastAPI (Python) handling the AI orchestration (LangGraph), Rule Engine, and Database (PostgreSQL + pgvector).
-- **Storage:** S3 for images and CSV artifacts.
-- **Queue:** Redis + ARQ for handling bulk CSV processing.
-
----
-
-## MVP Technical Specifications
-
-### 1. Marketplace Connectors (The Plumbing)
-*   **Amazon SP-API:** 
-    *   **Auth:** Website Authorization Workflow (OAuth 2.0).
-    *   **Key Endpoints:** `listings_items` (for creating/updating listings).
-    *   **Bulk Limits:** Must implement request batching and respect per-second rate limits.
-*   **Flipkart Seller API:**
-    *   **Auth:** v3.0 API Key + Signature authentication.
-    *   **Key Endpoints:** Product creation and category mapping endpoints.
-    *   **Requirement:** Specific handling for "Brand" and "Category" mapping logic to match Flipkart's internal taxonomy.
-
-### 2. Brand Voice & AI Logic (The Brain)
-*   **Context Injection:** Use a RAG-lite approach where Brand Voice chunks (Glossary, Tone, Banned Terms) are injected into the LangGraph prompt as "System Context."
-*   **Data Bridging Logic:** 
-    *   **Input:** Messy text (e.g., "blue cotton shirt").
-    *   **Processing:** Entity extraction (Color=Blue, Material=Cotton, Category=Shirt).
-    *   **Output:** Canonical JSON Schema (Internal standard format).
-### 3. AI Orchestration Flow (LangGraph):
-We will use a multi-agent graph to ensure high-fidelity output and iterative correction:
-    1.  **Data Structuring:** Raw data is parsed and mapped into a Canonical JSON Schema.
-    2.  **Parallel Generation Agents:**
-        *   **Catalog Agent:** Drafts the primary listing content (Title, Bullets, Description).
-        *   **Keyword Research Agent:** Identifies high-intent search terms and category-specific keywords.
-        *   **A+ Content Agent:** Generates rich media specifications and layout plans for high-visibility listings.
-    3.  **Validation Gate (The Arbiter):** The output from all agents is passed through the deterministic Rules Engine (Marketplace limits, Banned terms, etc.).
-    4.  **Correction Loop:** If the Validation Gate returns errors, the graph routes the specific failing agent (Catalog, Keyword, or A+ Content) back to re-generate only the affected fields, using the error report as feedback.
-    5.  **Final Output:** Validated content is presented for Human Approval.
-
----
-
 ## Module Roadmap & I/O Contracts
 
 To enable parallel development, the project is divided into independent modules.
 
-| Module | Responsibility | Input | Output |
-| :--- | :--- | :--- | :--- |
-| **Auth Module** | Handles OAuth flows for Amazon & Flipkart; manages token encryption/refresh. | User Credentials / OAuth Codes | Encrypted Tokens, User Session |
-| **Data Bridge Module** | Parses CSVs/Raw Text and maps them to the Canonical JSON Schema. | Raw CSV / Text | Canonical JSON Schema |
-| **AI Generation Module** | Uses LangGraph to generate content (Title, Bullets, Description) based on Brand Context. | Canonical JSON + Brand Context | Drafted Listing Content |
-| **Validation Module** | Deterministic rules check against Marketplace limits & banned terms. | Drafted Listing Content | ErrorReport (Pass/Fail) |
-| **Execution Module** | Maps Canonical Schema to Marketplace-specific payloads and executes API calls. | Canonical JSON + Validated Content | Publication Status / Result |
-
----
-
-## Strategy Summary: "The Data Bridge First"
-
-We prioritize the **Data Bridge Module** because it provides immediate value. 
-
-1.  Users upload CSVs.
-2.  Data Bridge turns them into "Clean Data."
-3.  AI Generation turns "Clean Data" into "Marketplace Drafts."
-4.  **Result:** Even without APIs connected, the user sees the "Magic" of AI-generated, brand-aligned content.
+| Module                   | Responsibility                                                                           | Input                              | Output                         | owners        |
+| :----------------------- | :--------------------------------------------------------------------------------------- | :--------------------------------- | :----------------------------- | ------------- |
+| **Auth Module**          | Handles OAuth flows for Amazon & Flipkart; manages token encryption/refresh.             | User Credentials / OAuth Codes     | Encrypted Tokens, User Session |               |
+| **Data Bridge Module**   | Parses CSVs/Raw Text and maps them to the Canonical JSON Schema.                         | Raw CSV / Text                     | Canonical JSON Schema          |               |
+| **AI Generation Module** | Uses LangGraph to generate content (Title, Bullets, Description) based on Brand Context. | Canonical JSON + Brand Context     | Drafted Listing Content        | lakshya       |
+| **Validation Module**    | Deterministic rules check against Marketplace limits & banned terms.                     | Drafted Listing Content            | ErrorReport (Pass/Fail)        | lakshya       |
+| **Execution Module**     | Maps Canonical Schema to Marketplace-specific payloads and executes API calls.           | Canonical JSON + Validated Content | Publication Status / Result    |               |
+| **Web UI Module**        | Next.js + Tailwind frontend; Dashboard, Onboarding, and Agent Workspace.                 | User Interaction                   | UI State / API Calls           |               |
+| **Auth & Identity**      | Invite-only logic, JWT management, session handling, and account creation.               | Invite Token / Credentials         | User Session                   | lakshya       |
+| **Data & Persistence**   | PostgreSQL schema management, pgvector for RAG, and S3 bucket config.                    | Raw Data / Files                   | Persistence / Retrieval        | snahanku      |
+| **Task Orchestration**   | Redis + ARQ for backgrounding CSV processing and LangGraph execution.                    | Task Requests                      | Job Status / Completion        | arpit,lakshya |
+| **media management**     | media management and s3 api                                                              | images,videos,csv's                |                                |               |

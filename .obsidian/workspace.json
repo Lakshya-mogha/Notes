@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "f74ba704d0b20bf1",
+            "id": "59a7bea155e97638",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "projects/unified market place listing/mvp.md",
+                "file": "projects/unified market place listing/architecture.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "mvp"
+              "title": "architecture"
             }
           }
         ]
@@ -220,14 +220,17 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "f74ba704d0b20bf1",
+  "active": "59a7bea155e97638",
   "lastOpenFiles": [
+    "projects/unified market place listing/v1.md",
+    "projects/unified market place listing/product_spec.md",
     "projects/unified market place listing/mvp.md",
+    "projects/unified market place listing/architecture.md",
+    "Module Roadmap.md",
     "projects/unified market place listing/mvp_draft.md",
     "Pasted image 20260903182022.png",
     "projects/unified market place listing/AI Listing Agent — Pricing & MCP Planning.md",
     "projects/unified market place listing/AI Listing Agent — High-Level Design.md",
-    "Untitled.md",
     "projects/automations.md",
     "projects/unified market place listing",
     "projects/how to start/project milestones.md",
@@ -256,9 +259,6 @@
     "notes/daily notes/2026-06-16.md",
     "notes/daily notes/Untitled.md",
     "database/Media DB/books/Recommender Systems (2016).md",
-    "database/Media DB/books/Introduction To Time Series And Forecasting (2013).md",
-    "database/Media DB/books/Hands-On Machine Learning with Scikit-Learn and PyTorch (2025).md",
-    "education/books/Untitled.md",
     "time table.png",
     "Untitled.canvas",
     "topic3_hse_instruction 1.png",
